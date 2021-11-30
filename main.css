@@ -1489,48 +1489,18 @@ button[name=qondorLink] {
     .txa-t-and-c {
         height: 10em;
     }
-    /* .changeBackground .homepage .sv-bvBildSpel .carousel-homepage .draggable .slick-slide .bv-puff .bv-puff__title p */
-    .changeBackground .homepage .sv-bvBildSpel .carousel-homepage .bv-puff__title {
-        margin-bottom: 20px !important;
-    }
+    
     #email-sms-permissions-main #permissions h1 {
         font-size: 1.7em !Important;
     }
     #permissions h1 {
         font-size: 1.8em;
     }
-    .changeBackground .changeBackground.padding-bottom .car-onboard.carousel.slick-slider .slick-list.draggable {
-        padding-right: 0 !Important;
-        padding-left: 0 !Important;
-    }
-    .changeBackground .sv-layout.homepage .sv-bvBildSpel .carousel-homepage .draggable {
-        margin-right: 10px;
-    }
-    .changeBackground .homepage.changeBackground .carousel.carousel-homepage {
-        padding-left: 0.7em;
-    }
-    /*Ylva 211117*/
-    .carousel .slick-list .slick-track .slick-center .bv-puff .bv-puff__img {
-        margin-top: 0.7em;
-    }
-    .carousel .slick-list .slick-track .slick-center .bv-puff .bv-puff__img {
-        /*background-position: center -8px !important;*/
-        background-size: cover !important;
-        border-radius: 10px 10px 0 0;
-        margin: auto auto 25px auto;
-    }
-    /* Below caused that pictures did not show in caraousel */
-    /*.homepage.changeBackground .carousel-homepage .bv-puff__img {
-      margin: auto auto -3.4em auto;
-   }*/
+  
     .sv-Email-Permission #email-sms-permissions-main #permissions .ok-button #okLink {
         font-size: 1em !important;
     }
-    .changeBackground .homepage.changeBackground .sv-bvBildSpel .carousel-homepage .slick-center {
-        -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.25);
-        -moz-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.25);
-        box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.25);
-    }
+  
     .page-head {
         padding-top: 2em;
     }
@@ -2001,12 +1971,6 @@ input[type=submit] {
     background-size: cover;
     /**flex: 0 0 250px;**/
 }
-
-
-/*.carousel-homepage-small .slick-list .slick-track .slick-center .bv-puff .bv-puff__img {
- 	background-size: contain;
-   
-}*/
 
 .slick-center .bv-puff__content .bv-puff__title h1.sv-font-h1-blue-bold-smaller {
     margin-top: -0.4em;
