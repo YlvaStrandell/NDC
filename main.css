@@ -749,7 +749,7 @@ color:#fff;
     font-family: 'AvenirDemiBold' !important;
     color: #009ada;
     font-size: 0.8em;
-    background: url(/images/18.1d53dd01724f87cba14ca/1591626577465/check.png) no-repeat top left;
+    background: url(https://conciergestage.stoppservice.com/images/18.1d53dd01724f87cba14ca/1591626577465/check.png) no-repeat top left;
     background-size: 17px 17px;
     background-position: top 0 left 2px;
 }
@@ -965,7 +965,7 @@ button[name=qondorLink] {
     -webkit-appearance: none;
     /* Safari and Chrome */
     appearance: none;
-    background: url(/images/18.489010e4172bba6e1173b/1592304579686/down-arrow-blue.png) no-repeat right white;
+    background: url(https://conciergestage.stoppservice.com/images/18.489010e4172bba6e1173b/1592304579686/down-arrow-blue.png) no-repeat right white;
     background-size: 15px;
     background-position: 98% 51%;
     width: 100%;
@@ -1154,7 +1154,7 @@ button[name=qondorLink] {
 
 /*.icon-bell {
  xbackground-color:#0099da;
-    xbackground: url(/images/18.1d53dd01724f87cba1516/1591630169374/concierge-white.png) no-repeat center center #0099da;
+    xbackground: url(https://conciergestage.stoppservice.com/images/18.1d53dd01724f87cba1516/1591630169374/concierge-white.png) no-repeat center center #0099da;
   xbackground-size: 62px 72px; 
 }*/
 
@@ -1182,7 +1182,7 @@ button[name=qondorLink] {
     content: "";
     width: 64px;
     height: 56px;
-    background: url(/images/18.1d53dd01724f87cba1516/1591630169374/concierge-white.png) no-repeat;
+    background: url(https://conciergestage.stoppservice.com/images/18.1d53dd01724f87cba1516/1591630169374/concierge-white.png) no-repeat;
     background-position: center center;
     position: absolute;
     display: inline-block;
@@ -1194,7 +1194,7 @@ button[name=qondorLink] {
     content: "";
     width: 64px;
     height: 56px;
-    background: url(/images/18.26909b261748b43e3dfab/1600176838008/calendar-white.png) no-repeat;
+    background: url(https://conciergestage.stoppservice.com/images/18.26909b261748b43e3dfab/1600176838008/calendar-white.png) no-repeat;
     background-position: center center;
     position: absolute;
     display: inline-block;
@@ -1206,7 +1206,7 @@ button[name=qondorLink] {
     content: "";
     width: 64px;
     height: 56px;
-    background: url("/images/18.1d53dd01724f87cba1532/1591634082968/profile-white.png") no-repeat;
+    background: url("https://conciergestage.stoppservice.com/images/18.1d53dd01724f87cba1532/1591634082968/profile-white.png") no-repeat;
     background-position: center center;
     position: absolute;
     display: inline-block;
@@ -1862,7 +1862,7 @@ button[name=qondorLink] {
         content: "";
         width: 50px;
         height: 42px;
-        background: url("/images/18.1d53dd01724f87cba1532/1591634082968/profile-white.png") no-repeat;
+        background: url("https://conciergestage.stoppservice.com/images/18.1d53dd01724f87cba1532/1591634082968/profile-white.png") no-repeat;
         background-position: center center;
         position: absolute;
         display: inline-block;
