@@ -1,0 +1,2185 @@
+/*
+.page-head {
+   border: 1px solid red;
+}
+
+.page-head + div {
+   border: 1px solid blue;
+}
+*/
+
+.sv-template-tom-mall .page-head .main-nav .logo-concierge {
+    position: inherit;
+}
+
+.sv-template-personlig-info .page-head .main-nav .sv-skip-spacer.sv-column-2,
+.sv-template-tom-mall .page-head .main-nav .sv-skip-spacer.sv-column-2,
+.sv-template-inspirational-offer .page-head .main-nav .sv-skip-spacer.sv-column-2,
+.sv-template-inspirational-offer .page-head .main-nav .sv-column-2 {
+    margin-left: 0;
+    width: fit-content;
+    padding: 0;
+    position: absolute;
+}
+
+.sv-template-personlig-info .page-head .main-nav .logo-concierge,
+.sv-template-tom-mall .page-head .main-nav .logo-concierge,
+.sv-template-inspirational-offer .page-head .main-nav .logo-concierge {
+    float: none;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
+
+.hide-me.message-splash>div {
+    padding: 1em;
+}
+
+.sv-grid-958px.sv-fluid-grid {
+    max-width: inherit;
+}
+
+.sv-decoration-hollow-button p {
+    margin: 19px 0;
+}
+
+.shadow {
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+
+/* WELCOME PAGE */
+
+.sv-decoration-app-logos {
+    text-align: center;
+    margin: 20vh auto auto auto;
+    font-size: 1.12em;
+    font-weight: 400;
+}
+
+.sv-decoration-app-logos div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+.sv-decoration-app-logos p {
+    font-size: 1.12em;
+    font-weight: 400;
+    margin-bottom: 0.7em;
+}
+
+.sv-decoration-app-logos .sv-image-portlet img {
+    margin: 0.5em;
+    width: 130px !Important;
+    height: 38px !Important;
+}
+
+
+/* END WELCOME PAGE */
+
+.sv-template-inspirational-offer .changeBackground .offerPage .article .sv-layout.sv-skip-spacer.sv-column-10.sv-template-layout {
+    margin-bottom: 1.2em;
+}
+
+
+/* SUPEROFFICE CHAT ICONS */
+
+#SuperOffice_chatdiv {
+    margin-bottom: 190px;
+}
+
+#SuperOffice_chatdiv .SuperChat {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+
+/* SEND A MESSAGE */
+
+.sv-defaultFormTheme .sv-formFieldRow .sv-formField .sv-field-title-container span {
+    display: none;
+}
+
+span.sv-textfield-input-size {
+    display: none;
+}
+
+#customContactFormSubmit_contactForm_button_send {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+
+/* LANGUAGE SELECTOR */
+
+.sv-language-portlet {
+    display: none;
+    position: absolute;
+    top: 1em;
+    right: 25%;
+}
+
+
+/* FAQ */
+
+.accordion-container-item.visible-content .image-container.open {
+    background-color: #009ada !important;
+}
+
+button.toggle-content .image-container {
+    border: none !important;
+}
+
+.accordion-container-item {
+    box-shadow: none !important;
+    margin-top: 1px !important;
+    margin-bottom: 1px !important;
+    border-bottom: 1px solid #eee;
+}
+
+button.toggle-content span.text {
+    font-family: 'AvenirMedium' !important;
+    font-weight: 100 !important;
+    font-size: 1.4em !important;
+    color: black;
+}
+
+p.accordion-content {
+    font-family: 'AvenirMedium' !important;
+}
+
+
+/* BANKID */
+
+.bvIlTag input,
+.bvIlTag button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.bvIlTag:nth-child(2),
+.bvIlTag:nth-child(3) {
+    display: inline-block;
+}
+
+.bvIlTag:nth-child(2) input,
+.bvIlTag:nth-child(3) input {
+    width: 250px;
+}
+
+.bvIlTag:nth-child(4) {
+    text-align: left !important;
+    padding-bottom: 0;
+}
+
+.bvIlTag:nth-child(5) {
+    align-items: flex-start;
+}
+
+.bvIlTag span,
+.bvIlTag input {
+    font-size: 1.2em !important;
+}
+
+#bankIdSeLogin .bankidDiv .bankIdBottomDiv {
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+.bankIDCancel,
+#bankIdSeLogin_submitMobileBankid {
+    width: 250px;
+}
+
+#bankIdSeLogin #bankIdSeLogin_submitMobileBankid {
+    top: -6px;
+}
+
+#bankIdSeLogin .bankIDCancel {
+    padding: 10px 0;
+    width: 250px;
+    height: 31px;
+    text-align: center;
+    background-color: #888;
+}
+
+#bankIdSeLogin .bankIDCancel:hover {
+    background-color: #666;
+}
+
+.bvUlTag,
+.bvUlTag .bankIdContentDiv {
+    text-align: left !important;
+}
+
+.bvBankIDHeading1 {
+    font-family: 'AvenirDemiBold' !important;
+    font-size: 1.5em !important;
+    text-align: left !important;
+}
+
+.bvIlCenterImageTag img {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+#bankidsemenu input {
+    font-family: 'AvenirDemiBold' !important;
+    background-color: #0099da;
+    color: #fff;
+    padding: 12px 0;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+#bankidsemenu input:hover,
+.bankIDCancel,
+#bankIdSeLogin_submitMobileBankid:hover {
+    background-color: #33ade1;
+}
+
+.bankIdContentDiv,
+.bankIdPromoDiv {
+    font-family: 'Avenir' !important;
+    align-self: flex-start !important;
+}
+
+@media all and (max-width: 656px) {
+    #bankIdSeLogin #bankIdSeLogin_submitMobileBankid,
+    #bankIdSeLogin .bankIDCancel {
+        width: 45%;
+        font-size: 1em;
+        height: 22px;
+    }
+    #bankIdSeLogin #bankIdSeLogin_submitMobileBankid {
+        height: 42px;
+    }
+    #bankIdSeLogin .bankIDCancel a {
+        font-size: 1em;
+    }
+}
+
+
+/* LOGIN START */
+
+.loginpage #bankIdSeLogin .bankidDiv {
+    padding-right: 0;
+}
+
+.onboarding-page .loginpage .sv-text-portlet-content p {
+    text-align: left !important;
+    margin-left: 10px;
+}
+
+.loginpage .login-portlet {
+    display: block;
+}
+
+.loginpage {
+    padding: 0 2em;
+}
+
+.loginpage .bvLoginWrapper {
+    max-width: none;
+}
+
+.loginpage .bvLoginWrapper .warningText {
+    max-width: 90%;
+}
+
+.loginpage .bvLoginWrapper label {
+    text-align: left !important;
+    font-family: 'AvenirMedium' !important;
+    color: #111;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 8px 0 2px 2px;
+    padding-left: 0.5em;
+}
+
+.loginpage .bvLoginWrapper input[type='text'],
+.loginpage .bvLoginWrapper input[type='password'] {
+    padding: 15px;
+    background-color: #f7f7f7 !important;
+    border: 0;
+    border-radius: 0;
+    font-family: 'AvenirMedium' !important;
+}
+
+.loginpage .bvLoginWrapper input[type='submit'] {
+    padding: 12px 30px 39px 30px;
+    width: 250px;
+    max-width: none;
+    height: 30px;
+    background-color: #0099da !important;
+    border: 0;
+    border-radius: 0;
+    color: #fff;
+    font-family: 'AvenirMedium' !important;
+    font-size: 1.2em;
+}
+
+.loginpage #standardLoginSubmit div {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.loginpage #standardLoginSubmit div .bvLoginGroup {
+    width: 48%;
+    font-family: 'Avenir' !important;
+}
+
+.loginpage #standardLoginSubmit div .bvLoginGroup:first-child {
+    margin-right: 20px;
+}
+
+.loginpage #standardLoginSubmit div .bvLoginGroup input {
+    font-family: 'AvenirDemiBold' !important;
+    font-size: 1.2em;
+}
+
+.loginPage .sv-bankidswedenoauth-portlet #bankIdSeLogin #bankidsemenu.bankidDiv {
+    padding: 0;
+    margin: 0;
+}
+
+.loginpage #standardLoginSubmit div .bvLoginGroup:last-child input {
+    font-size: 1.4em;
+}
+
+.loginpage #standardLoginSubmit div .bvLoginGroup:nth-child(3) {
+    width: auto;
+}
+
+
+/* LOGIN SLUT */
+
+
+/* BANK ID SLUT */
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('/download/18.1d53dd01724f87cba1112/1590662512938/AvenirNext-Regular.ttf') format('truetype')/* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'AvenirBold';
+    src: url('/download/18.1d53dd01724f87cba1113/1590662512945/AvenirNext-Bold.ttf') format('truetype')/* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'AvenirDemiBold';
+    src: url('/download/18.1d53dd01724f87cba1114/1590662512951/AvenirNext-DemiBold.ttf') format('truetype')/* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'AvenirMedium';
+    src: url('/download/18.1d53dd01724f87cba1111/1590662512931/AvenirNext-Medium.ttf') format('truetype')/* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'LloydsBankJackMediumWeb';
+    src: url('/download/18.26909b261748b43e3df3dc/1602152770537/lloyds_bank_jack-mediumWEB.otf') format('opentype')/* Safari, Android, iOS */
+}
+
+.c739 {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+@font-face {
+    font-family: 'Danske';
+    src: url('/download/18.5b99e0f71751c86251d17/1603439885616/dk_text-webfont.ttf') format('truetype')/* Safari, Android, iOS */
+}
+
+.sv-font-dark-medium-14pt,
+.sv-font-white-medium-11pt,
+.sv-font-dark-demibold-15pt,
+.sv-font-dark-demibold-12pt,
+.sv-font-black-regular-12pt {
+    font-family: 'Avenir' !important;
+}
+
+.sv-font-dark-bold-15pt,
+.sv-font-white-bold-15pt,
+.sv-font-blue-demibold-14pt,
+.sv-font-black-demibold-18pt,
+.sv-font-white-demibold-22pt,
+.sv-font-dark-demibold-16pt {
+    font-family: 'AvenirDemiBold' !important;
+    line-height: 1.2em;
+}
+
+.sv-font-black-bold-24pt,
+.sv-font-black-medium-20pt,
+h2.subheading,
+h2.sv-text-align-center,
+h3.subheading3,
+h1.heading,
+.notification {
+    font-family: 'AvenirBold' !important;
+}
+
+.sv-font-dark-medium-13pt,
+.sv-font-black-medium-16pt,
+.sv-font-black-medium-18pt,
+.sv-font-dark-medium-12pt,
+.sv-font-dark-medium-15pt,
+.sv-font-dark-demibold-14pt {
+    font-family: 'AvenirMedium' !important;
+}
+
+body a:hover {
+    text-decoration: none !important;
+}
+
+.back {
+    cursor: pointer;
+}
+
+.c9 {
+    margin-left: 0 !important;
+}
+
+.c107 {
+    display: flex;
+    margin: auto;
+}
+
+.logo-concierge img {
+    width: 270px !important;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.margin-auto {
+    margin: auto !Important;
+}
+
+.btn-big {
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-big p {
+    padding: 0;
+    margin: 0;
+}
+
+.btn-big a {
+    font-family: 'AvenirDemiBold' !important;
+    display: block;
+    padding: 16px 112px;
+}
+
+.btn-grey {
+    color: #fff;
+    background-color: #c2c4c6;
+}
+
+.btn-blue {
+    color: #fff;
+    background-color: #009ada;
+}
+
+.btn-center {
+    margin: auto;
+}
+
+.txa-t-and-c {
+    font-family: 'AvenirMedium' !important;
+    font-size: 16px;
+    padding: 1.3%;
+    width: 96.9%;
+    cursor: default;
+    height: 30em;
+    overflow: auto;
+    outline: none;
+}
+
+
+/* CHANGE THE HEIGHT BELOW SHOULD THE LENGTH OF THE
+TERMS AND CONDITIONS TEXT CHANGE */
+
+.mobile-t-and-c .txa-t-and-c {
+    /*height: 20em;*/
+    height: 15em;
+    padding-left: 5px;
+    margin-right: -5px;
+}
+
+.sv-layout.homepage .sv-spacer-2emvt .sv-fixed-fluid-grid.sv-grid-958px.sv-layout.sv-skip-spacer .sv-row.sv-layout.sv-skip-spacer .sv-layout.sv-column-10 {
+    margin-left: 0 !important;
+}
+
+
+/*
+.sv-layout.homepage .sv-spacer-2emvt .sv-layout .sv-spacer-2emvt .sv-fixed-fluid-grid .sv-row.sv-layout .sv-layout .sv-column-10 {
+*/
+
+.sv-layout.homepage .sv-spacer-2emvt .sv-spacer-2emvt .sv-fixed-fluid-grid .sv-row.sv-layout .sv-layout.sv-column-10 {
+    margin-left: 0 !important;
+}
+
+textarea::-webkit-scrollbar {
+    width: 8px;
+    background-color: #f5f5f5;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #009ada;
+}
+
+.footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-nav div {
+    display: inline-block;
+    text-align: center;
+}
+
+.footer-nav>div:first-of-type .webapp-boilerplate div[data-cid] {
+    display: inline-flex;
+    align-items: center;
+}
+
+.footer-nav div:nth-of-type(4) {
+    position: absolute;
+    margin-left: 890px;
+}
+
+.notification {
+    position: absolute;
+    top: 3px;
+    margin-left: 16px;
+    padding: 0 7.5px 0 6.5px;
+    border-radius: 50%;
+    background: #e5435f;
+    color: white;
+    font-size: 1.4em;
+}
+
+.sv-decoration-hotel-bed {
+    background-position: left;
+    padding-left: 1.7em;
+}
+
+.sv-decoration-location {
+    background-position: left;
+    padding-left: 1.3em;
+}
+
+.sv-decoration-download {
+    background-position-x: 600px;
+}
+
+.sv-decoration-download a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.sv-decoration-blue-arrow-right a {
+    display: flex;
+    padding-right: 100%;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.contactform-container form label,
+.contactform-container form input[type=text],
+.contactform-container form input[type=tel],
+.contactform-container form input[type=email] {
+    display: none;
+}
+
+.contactform-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 0;
+}
+
+.contactform-container form option {
+    font-family: inherit;
+}
+
+.contactform-container textarea {
+    width: 100% !Important;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    padding: 10px !important;
+    margin: 0 0 1.3em 0;
+    resize: none;
+    height: 250px;
+    max-width: -webkit-fill-available;
+    max-width: -moz-available;
+}
+
+.booking-form {
+    padding: 3em 2em 0 2em;
+}
+
+.booking-form input[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 1.5em;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.55em;
+    background-color: #009ada;
+    width: 150%;
+    margin-left: -220px;
+    border: none;
+    /*Ylva fix safari and Iphone gap*/
+    padding-bottom: 1em;
+    margin-bottom: -0.2em;
+}
+
+
+/* .booking-form input[type=submit]:hover {
+color:#fff;
+   background-color:#048bc5;
+}
+*/
+
+.contactForm select {
+    background-color: #f7f7f7;
+    border: 0;
+    color: #333;
+    font-weight: normal;
+    font-size: 1em;
+    overflow: hidden;
+}
+
+.booking-form select {
+    background-color: #f7f7f7;
+    border: 0;
+    color: #333;
+    font-weight: normal;
+    font-size: 1em;
+    overflow: hidden;
+    margin-top: 2em;
+}
+
+.booking-form textarea {
+    font-size: 1em;
+    font-weight: normal;
+    background-color: #f7f7f7;
+    margin-bottom: 25px;
+    padding-top: 12px;
+    padding-bottom: 60px;
+    padding-right: 15px;
+    margin-top: 4px;
+    border: 0;
+    overflow: hidden;
+    font-family: 'Avenir' !important;
+}
+
+.booking-form .sv-formFieldRow div {
+    padding: 0 3em;
+}
+
+.booking-form .sv-formFieldRow div.sv-field-title-container {
+    padding: 0;
+}
+
+.booking-form .sv-formField {
+    margin-bottom: 0;
+    padding: 0 !important;
+}
+
+.booking-form #Epostformular+div span {
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: normal;
+    color: #009ada;
+    padding-bottom: 10px;
+}
+
+
+/* Kontakt portlet */
+
+.portletCustomMainFont #contactFormTable input {
+    font-family: 'AvenirDemiBold' !important;
+}
+
+.portletCustomMainFont tr:nth-child(1),
+.portletCustomMainFont tr:nth-child(4),
+.portletCustomMainFont tr:nth-child(5),
+.portletCustomMainFont tr:nth-child(6),
+.portletCustomMainFont tr:nth-child(7),
+.portletCustomMainFont tr:nth-child(8),
+.portletCustomMainFont tr:nth-child(9) {
+    display: none;
+}
+
+.portletCustomMainFont tr:nth-child(2) td,
+.portletCustomMainFont tr:nth-child(3) td {
+    padding: 5px 3em 5px 3em;
+}
+
+.portletCustomMainFont textarea {
+    width: 98%;
+    height: 140px;
+    padding: 10px;
+    resize: none;
+}
+
+.portletCustomMainFont form {
+    width: 102%;
+    margin: 0 0 -3px -3px;
+}
+
+.portletCustomMainFont select {
+    width: 100%;
+    padding: 10px;
+}
+
+.portletCustomMainFont #newQuestion {
+    display: none;
+    padding-bottom: 30px;
+}
+
+#customContactFormSubmit {
+    width: 100%;
+    margin: 0 0 -3px 0px;
+}
+
+#contactFormTable {
+    border-spacing: 0;
+}
+
+#contactFormTable tr:last-child td {
+    padding: 0;
+}
+
+.confirm_contact {
+    margin: 0 0 1em 4em !important;
+    padding-left: 1.8em;
+    font-family: 'AvenirDemiBold' !important;
+    color: #009ada;
+    font-size: 0.8em;
+    background: url(/images/18.1d53dd01724f87cba14ca/1591626577465/check.png) no-repeat top left;
+    background-size: 17px 17px;
+    background-position: top 0 left 2px;
+}
+
+
+/* Kontakt portlet slut */
+
+.fixed-footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.15);
+    z-index: 9999;
+}
+
+.contactbox {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 61px;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.fixed-footer img {
+    cursor: pointer;
+    max-width: 70px;
+}
+
+.footer-nav>div:first-of-type .webapp-boilerplate div[data-cid] img {
+    max-width: 64px;
+}
+
+.footer-nav>div:first-of-type .webapp-boilerplate div[data-cid] button {
+    padding: 0;
+}
+
+.contactbox img {
+    cursor: pointer;
+}
+
+.padding-bottom {
+    padding-bottom: 220px;
+}
+
+.accordion-container-item button {
+    outline: none;
+}
+
+button[name=qondorLink] {
+    background: none;
+    color: inherit;
+    border: none;
+    outline: inherit;
+}
+
+
+/*.selected {
+   
+}*/
+
+.sv-font-read-more {
+    display: block;
+}
+
+.small-offer {
+    text-align: center;
+}
+
+.small-offer,
+.big-offer {
+    display: flex;
+    justify-content: center;
+}
+
+.big-offer .sv-font-read-more {
+    margin: 20px 10px;
+}
+
+.big-offer img {
+    margin-right: 20px;
+}
+
+.small-offer img {
+    display: block;
+    float: none;
+    max-width: 500px !important;
+}
+
+.small-offer ul li span:nth-of-type(2) {
+    display: block;
+    background-color: #0099da;
+    padding: 20px 0;
+    width: 100%;
+    color: #fff;
+}
+
+.small-offer ul li span:nth-of-type(2) a {
+    color: #fff;
+}
+
+.small-offer span:nth-child(5) {
+    float: none;
+    display: inline-block;
+    width: 170px;
+    margin-top: 20px;
+}
+
+.margin-bottom {
+    margin-bottom: 250px;
+}
+
+.home-overlay {
+    display: none;
+    /*  ÄNDRA TILLBAKA TILL DISPLAY: NONE;   */
+    opacity: 0.80;
+    background: #009ada;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    position: absolute;
+    text-align: center;
+}
+
+.home-overlay #Close-0+div {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+}
+
+.call-splash {
+    opacity: 0.95;
+    background: #0099da;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+}
+
+.call-splash p {
+    font-size: 1.8em;
+    line-height: 2em;
+}
+
+.call-splash a {
+    font-size: 1.5em;
+}
+
+.call-splash>div:first-child {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+.call-splash .sv-row:first-child img {
+    margin-right: 1em;
+    /* margin-left: 100%;
+  margin-top:-135px;*/
+    cursor: pointer;
+    display: block;
+    width: 1.5em !important;
+    z-index: 100000000;
+}
+
+.call-splash .sv-row:last-child .sv-image-portlet {
+    display: none;
+}
+
+.message-splash {
+    opacity: 0.99;
+    background: #0099da;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+/*.message-splash div.sv-formFieldRow {   
+  xpadding:0 50px;
+   
+}*/
+
+.message-splash img {
+    width: 1.2em !important;
+    height: 1.2em !important;
+    cursor: pointer;
+}
+
+.message-splash select,
+#categorysend-a-message-mobile-app-sv {
+    font-size: 1em;
+    color: #0099da;
+    height: 45px;
+    border-radius: 10px;
+    padding: 0 0 0 2%;
+    font-family: 'AvenirDemiBold' !important;
+    border: 0;
+    -moz-appearance: none;
+    /* Firefox */
+    -webkit-appearance: none;
+    /* Safari and Chrome */
+    appearance: none;
+    background: url(/images/18.489010e4172bba6e1173b/1592304579686/down-arrow-blue.png) no-repeat right white;
+    background-size: 15px;
+    background-position: 98% 51%;
+    width: 100%;
+}
+
+.message-splash select>option {
+    font-weight: normal;
+}
+
+.message-splash select:focus {
+    outline: none;
+}
+
+.message-splash textarea,
+#messagesend-a-message-mobile-app-sv {
+    font-size: 1em;
+    padding: 2%;
+    /* width:86%; */
+    border-radius: 10px;
+    height: 250px;
+    font-family: 'Avenir' !important;
+}
+
+.message-splash textarea::placeholder {
+    color: #bbb;
+}
+
+.message-splash label {
+    font-size: 1em;
+    color: #fff;
+}
+
+.message-splash input[type="submit"],
+#contactform-containersend-a-message-mobile-app-sv input[type="submit"] {
+    font-size: 1.2em;
+    position: relative;
+    background-color: #fff;
+    color: #0099da;
+    height: 43px;
+    border: 0;
+    width: 180px;
+    font-family: 'AvenirDemiBold' !important;
+    border-radius: 5px;
+    cursor: pointer;
+    /* top: 10px; */
+    float: right;
+    /* margin-right: 2.4em; */
+    margin-left: 1em;
+    /* top: 0em; */
+}
+
+.message-splash .sv-text-portlet-content p {
+    font-family: 'Avenir' !important;
+}
+
+.sv-decoration-send-us-a-message {
+    display: block;
+    margin-bottom: 50px;
+    background-size: 35px;
+    background-position-y: -3px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    /*accent-color: ;*/
+}
+
+.confirmation {
+    opacity: 0.95;
+    background: #0099da;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    padding-top: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirmation p {
+    color: #fff;
+}
+
+.download-box {
+    display: flex !Important;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-box div {
+    display: inline-block;
+}
+
+.download-box a {
+    text-decoration: none;
+}
+
+.download-box .sv-text-portlet a {
+    margin-right: 10px;
+}
+
+.sv-defaultFormTheme .sv-formFieldRow div {
+    text-align: left;
+}
+
+.sv-defaultFormTheme .sv-formFieldRow:nth-of-type(2) {
+    margin-top: 20px;
+}
+
+.sv-defaultFormTheme .sv-formFieldRow div label {
+    display: inline-block;
+    margin-bottom: 4px;
+    margin-left: 2px;
+}
+
+
+/*.personal-info .sv-template-layout div {
+    xmax-width:550px;
+}*/
+
+
+/*.personal-info .fixed-footer .sv-grid-958px, .personal-info .fixed-footer .sv-grid-958px div {
+  
+    xmax-width:750px !important;
+}*/
+
+.personal-info form div#submit {
+    display: flex;
+    align-items: center;
+}
+
+.personal-info form div#submit div {
+    margin-right: 30px;
+    width: 100%;
+}
+
+.personal-info form div#submit p {
+    width: 100%;
+    margin-bottom: 4px;
+    font-size: 1.2em;
+}
+
+.personal-info input[type='text'] {
+    width: 370px;
+    height: 20px;
+    border: 0;
+    font-size: 0.9em;
+    /*   background:url(/images/18.1d53dd01724f87cba14d8/1591626577511/pen-regular.png) right 8px center no-repeat #f7f7f7;
+   background-size: 20px 20px;
+  */
+    padding: 10px;
+}
+
+.personal-info input[type='text']::placeholder {
+    color: #aaa;
+}
+
+.personal-info .contactbox div.sv-grid-958px,
+.personal-info .contactbox div.sv-grid-958px div {
+    max-width: 958px;
+}
+
+#permissions2 div p {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.small-view {
+    width: 80% !important;
+    margin: 0 auto;
+}
+
+.lSSlideOuter li {
+    border-radius: 0;
+}
+
+.icon-calender,
+.icon-bell,
+.icon-person {
+    padding: 0.5em 5em;
+}
+
+
+/*.icon-bell {
+ xbackground-color:#0099da;
+    xbackground: url(/images/18.1d53dd01724f87cba1516/1591630169374/concierge-white.png) no-repeat center center #0099da;
+  xbackground-size: 62px 72px; 
+}*/
+
+.sv-decoration-log-out-icon {
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+.blueBackgroundBell {
+    background-color: #009ada;
+    cursor: pointer;
+}
+
+.blueBackgroundPerson {
+    background-color: #009ada;
+    cursor: pointer;
+}
+
+.blueBackgroundCalender {
+    background-color: #009ada;
+    cursor: pointer;
+}
+
+.blueBackgroundBell:after {
+    content: "";
+    width: 64px;
+    height: 56px;
+    background: url(/images/18.1d53dd01724f87cba1516/1591630169374/concierge-white.png) no-repeat;
+    background-position: center center;
+    position: absolute;
+    display: inline-block;
+    background-size: 64px 56px;
+    transform: translateX(-100%);
+}
+
+.blueBackgroundCalender:after {
+    content: "";
+    width: 64px;
+    height: 56px;
+    background: url(/images/18.26909b261748b43e3dfab/1600176838008/calendar-white.png) no-repeat;
+    background-position: center center;
+    position: absolute;
+    display: inline-block;
+    background-size: 70px 61px;
+    transform: translateX(-120%);
+}
+
+.blueBackgroundPerson:after {
+    content: "";
+    width: 64px;
+    height: 56px;
+    background: url("/images/18.1d53dd01724f87cba1532/1591634082968/profile-white.png") no-repeat;
+    background-position: center center;
+    position: absolute;
+    display: inline-block;
+    background-size: 64px 56px;
+    transform: translateX(-100%);
+}
+
+
+/*.lightSlider .sv-custom-module {
+   xoverflow:hidden;
+   xborder-radius:20px;
+    xwidth:90%;
+}*/
+
+.lSSlideOuter .lSPager.lSpg {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.sv-decoration-phone,
+.sv-decoration-chat,
+.sv-decoration-message {
+    background-size: 35px 35px;
+    cursor: pointer;
+}
+
+.sv-decoration-phone .sv-text-portlet-content,
+.sv-decoration-chat .sv-text-portlet-content,
+.sv-decoration-message .sv-text-portlet-content {
+    margin-top: 25px;
+}
+
+.sv-decoration-phone {
+    margin-left: 25px;
+}
+
+.sv-decoration-chat,
+.sv-decoration-message {
+    background-size: 41px 36px;
+}
+
+.sv-decoration-phone:after,
+.sv-decoration-chat:after {
+    height: 90px;
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    margin-top: -15px;
+    margin-left: 50px;
+    border-right: 1px solid #eee;
+    content: '';
+}
+
+
+/*.sv-decoration-chat:before {
+   height: 90px;
+    display: inline-block;
+   position:absolute;
+    width: 20px;
+    margin-top:-15px;
+   margin-left:50px;
+    border-right: 1px solid #eee;
+    content: '';
+}*/
+
+.contactbox #Close+img {
+    margin-bottom: 130px;
+}
+
+.maincontent {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: -15px;
+}
+
+.price p {
+    margin-left: 3px;
+}
+
+.price div {
+    margin-right: 20px;
+}
+
+.logout #logout+div p {
+    cursor: pointer;
+}
+
+.demo li.lslide {
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+
+.lSPager {
+    width: auto !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lSSlideOuter .lSPager.lSGallery li.active,
+.lSSlideOuter .lSPager.lSGallery li {
+    border-radius: 0 !important;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: auto !important;
+}
+
+.lSSlideOuter .lSPager.lSGallery li:first-child {
+    border-bottom-left-radius: 15px !important;
+}
+
+.lSSlideOuter .lSPager.lSGallery li:last-child {
+    border-bottom-right-radius: 15px !important;
+    margin-right: 0 !important;
+}
+
+.lSSlideOuter .lSPager.lSGallery li {
+    -webkit-filter: brightness(50%);
+}
+
+.lSSlideOuter .lSPager.lSGallery li.active {
+    -webkit-filter: brightness(100%);
+}
+
+.lSAction>.lSPrev {
+    background-image: url(/images/18.3a7e2574173ece0c021510/1599574667102/arrow-white-left.png);
+    background-size: 35px 35px;
+    width: 35px;
+    height: 35px;
+    opacity: 1;
+}
+
+.lSAction>.lSNext {
+    background-image: url(/images/18.3a7e2574173ece0c021511/1599574667107/arrow-white-right.png);
+    background-size: 35px 35px;
+    background-position: -35px 0 !important;
+    width: 35px;
+    height: 35px;
+    opacity: 1;
+}
+
+.sv-text-portlet-content p.sv-font-black-medium-20pt {
+    margin-left: 14px;
+    margin-bottom: 5px;
+}
+
+
+/*.sv-text-portlet-content p, .no_combo_small, .contactform_textArea {
+ xfont-family: 'Avenir' !important;
+}*/
+
+.sv-text-portlet-content p.sv-font-dark-demibold-16pt {
+    font-family: 'AvenirDemiBold' !important;
+    margin-bottom: 12px;
+}
+
+.sv-font-white-demibold-14pt {
+    white-space: normal;
+}
+
+
+/* .main-nav {
+      display:flex;
+      justify-content:flex-start;
+      align-items:center;
+   }
+*/
+
+
+/* .main-nav div {
+      padding:0;
+      display:inline-block;
+   }
+*/
+
+
+/*   .main-nav div:first-of-type {
+      margin-top:0 !important;
+      xpadding-top:10px !important;      
+   }
+*/
+
+.logo-concierge {
+    text-align: center;
+}
+
+.booking-form .portletCustomMainFont select {
+    font-family: 'Avenir' !important;
+}
+
+.call-splash .sv-row:last-child>.sv-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -5% !important;
+    margin-top: 40vh;
+}
+
+
+/* MOBILE START */
+
+@media all and (max-width: 1000px) {
+    /**#contactform-containersend-a-message-mobile-app-sv input[type="submit"] {
+      margin-right: clamp(1.4em,-1.75em + 8vw,2.4em);
+   }**/
+}
+
+@media all and (max-width: 958px) {
+    .sv-template-home2 .page-head .main-nav .logo-concierge,
+    .sv-template-tom-mall-utan-footer-inloggad .page-head .main-nav .logo-concierge,
+    .sv-template-tom-mall .page-head .main-nav .sv-column-2,
+    .sv-template-inspirational-offer .page-head .main-nav .sv-column-2,
+    .sv-template-personlig-info .page-head .main-nav .sv-column-2 {
+        margin-bottom: 0;
+    }
+    .footer-nav div:nth-of-type(4) {
+        position: absolute;
+        margin-left: auto;
+        right: 2%;
+    }
+    .footer-nav {
+        justify-content: center;
+    }
+    .sv-decoration-phone,
+    .sv-decoration-chat,
+    .sv-decoration-message {
+        width: 24%;
+        min-width: 224px;
+        position: relative;
+    }
+    .sv-decoration-phone {
+        margin-left: 0;
+    }
+    .sv-decoration-phone:after,
+    .sv-decoration-chat:after {
+        width: 0;
+        margin-left: 0;
+        right: 0;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .sv-template-tom-mall-utan-footer .page-head .logo-concierge .sv-image-portlet img {
+        margin-left: -5px;
+    }
+    .sv-template-tom-mall-utan-footer .page-head .logo-concierge .sv-image-portlet {
+        line-height: normal;
+    }
+    .sv-template-tom-mall-utan-footer .page-head {
+        padding-bottom: 0;
+    }
+    .sv-template-tom-mall .page-head .main-nav .sv-column-2,
+    .sv-template-inspirational-offer .page-head .main-nav .sv-column-2,
+    .sv-template-personlig-info .page-head .main-nav .sv-column-2 {
+        margin-top: 0;
+    }
+    .sv-decoration-phone .sv-text-portlet-content,
+    .sv-decoration-chat .sv-text-portlet-content,
+    .sv-decoration-message .sv-text-portlet-content {
+        margin-top: 0;
+    }
+    /*Ylva start 21111*/
+    /* welcome page */
+    .startpage {
+        margin-left: .9em;
+        margin-right: .9em;
+    }
+    /*login page*/
+    .loginPage {
+        margin-left: .9em;
+        margin-right: .9em;
+    }
+    /*Ylva end*/
+    .txa-t-and-c {
+        height: 10em;
+    }
+    /* .changeBackground .homepage .sv-bvBildSpel .carousel-homepage .draggable .slick-slide .bv-puff .bv-puff__title p */
+    .changeBackground .homepage .sv-bvBildSpel .carousel-homepage .bv-puff__title {
+        margin-bottom: 20px !important;
+    }
+    #email-sms-permissions-main #permissions h1 {
+        font-size: 1.7em !Important;
+    }
+    #permissions h1 {
+        font-size: 1.8em;
+    }
+    .changeBackground .changeBackground.padding-bottom .car-onboard.carousel.slick-slider .slick-list.draggable {
+        padding-right: 0 !Important;
+        padding-left: 0 !Important;
+    }
+    .changeBackground .sv-layout.homepage .sv-bvBildSpel .carousel-homepage .draggable {
+        margin-right: 10px;
+    }
+    .changeBackground .homepage.changeBackground .carousel.carousel-homepage {
+        padding-left: 0.7em;
+    }
+    /*Ylva 211117*/
+    .carousel .slick-list .slick-track .slick-center .bv-puff .bv-puff__img {
+        margin-top: 0.7em;
+    }
+    .carousel .slick-list .slick-track .slick-center .bv-puff .bv-puff__img {
+        /*background-position: center -8px !important;*/
+        background-size: cover !important;
+        border-radius: 10px 10px 0 0;
+        margin: auto auto 25px auto;
+    }
+    /* Below caused that pictures did not show in caraousel */
+    /*.homepage.changeBackground .carousel-homepage .bv-puff__img {
+      margin: auto auto -3.4em auto;
+   }*/
+    .sv-Email-Permission #email-sms-permissions-main #permissions .ok-button #okLink {
+        font-size: 1em !important;
+    }
+    .changeBackground .homepage.changeBackground .sv-bvBildSpel .carousel-homepage .slick-center {
+        -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.25);
+        -moz-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.25);
+        box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.25);
+    }
+    .page-head {
+        padding-top: 2em;
+    }
+    #svid10_1e536fcd1729dcc95856d {
+        background-size: 220%;
+        /*background-position:-260px -10px;*/
+        background-position: 65% 0;
+        background-color: #fbfbfb;
+    }
+    .logo-concierge img {
+        width: 200px !important;
+    }
+    .icon-calender,
+    .icon-bell,
+    .icon-person {
+        padding-left: 8%;
+        padding-right: 8%;
+        margin: 0;
+        flex: 1;
+    }
+    .sv-text-portlet-content p.sv-font-black-medium-20pt {
+        margin-left: 10px;
+        margin-bottom: 20px;
+        font-size: 1.3em;
+    }
+    .sv-decoration-phone:after,
+    .sv-decoration-chat:after {
+        width: 0;
+        margin-left: 30px;
+        height: 110px;
+        margin-top: -38px;
+    }
+    .contactbox p {
+        font-size: 0.9em;
+    }
+    .sv-decoration-phone,
+    .sv-decoration-chat,
+    .sv-decoration-message {
+        min-width: unset;
+        width: 25%;
+    }
+    .sv-decoration-phone {
+        background-size: 38px 38px;
+        padding-top: 32px;
+        margin-bottom: 5px;
+        margin-right: 0;
+        /* margin-left:2%;*/
+    }
+    .sv-decoration-message {
+        background-size: 50px 43px;
+        padding-top: 35px;
+        margin-bottom: 5px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .sv-decoration-chat {
+        padding-top: 35px;
+        background-size: 50px 40px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .main-nav {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .main-nav div {
+        padding: 0;
+        display: inline-block;
+    }
+    .main-nav div.logo-concierge {
+        text-align: center;
+        flex-grow: 1;
+    }
+    .contactbox img {
+        width: 80% !important;
+    }
+    .contactbox {
+        bottom: 58px;
+        padding-top: 2em;
+    }
+    .padding-bottom {
+        padding-bottom: 80px !important;
+    }
+    .small-offer:nth-child(1) {
+        margin-bottom: 50px;
+    }
+    .call-splash>div:first-child {
+        /*transform: translate(-35%, -35%); */
+        transform: translateX(-50%);
+        min-width: 400px;
+        top: 0;
+    }
+    .call-splash .sv-row:first-child img {
+        position: absolute;
+        right: 27%;
+        cursor: pointer;
+        width: 1.5em !important;
+    }
+    .call-splash .sv-row:last-child .sv-image-portlet {
+        display: block;
+        margin-right: 2px;
+    }
+    .call-splash .sv-row:last-child>.sv-layout {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -5% !important;
+        margin-top: 35vh;
+    }
+    .call-splash .sv-row:last-child img {
+        width: 2em !important;
+        /*position: absolute;*/
+        top: 50%;
+        left: 14%;
+    }
+    .call-splash p {
+        font-size: 1.3em;
+        line-height: 2em;
+    }
+    .call-splash a {
+        font-size: 1.6em;
+    }
+    .message-splash {
+        padding-top: 10px;
+    }
+    #contactform-containersend-a-message-mobile-app-sv input[type=submit] {
+        position: relative;
+        left: unset;
+        margin-left: unset;
+        align-self: flex-end;
+        /* margin-right: clamp(1.4em,-0.75em + 8vw,2.4em);  */
+        /**margin-right: 6%;**/
+    }
+    .personal-info input[type='text'] {
+        width: 100%;
+    }
+    .personal-info form div#submit {
+        flex-flow: wrap;
+    }
+    .personal-info form div#submit div {
+        margin-right: 0;
+        width: 94%;
+    }
+    .btn-big {
+        font-size: 0.8em;
+    }
+    .marginTop11em {
+        margin-top: 2em;
+    }
+    .marginTop11em div:first-child {
+        margin-bottom: 0;
+    }
+    .sv-decoration-send-us-a-message {
+        /* margin-left:15%;*/
+        font-size: 0.8em;
+        background-size: 22px 22px;
+        height: 22px;
+        display: inline-block;
+        margin-left: auto;
+        margin-bottom: 30px;
+    }
+    .sv-decoration-send-us-a-message .sv-text-portlet-content p {
+        margin-top: 0;
+        margin-left: 3px;
+    }
+    .booking-form {
+        margin-bottom: 0 !important;
+    }
+    .contactform-container select {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .article .sv-font-black-demibold-18pt {
+        font-size: 1.6em;
+    }
+    .fixed-footer .footer-nav {
+        justify-content: center;
+    }
+    .bv-puff__description .sv-font-dark-demibold-15pt,
+    .bv-puff__description .sv-font-dark-demibold-14pt {
+        font-size: 1em !important;
+    }
+    .maincontent {
+        padding-left: 1.1em;
+        padding-right: 1.1em;
+    }
+    .booking-form .sv-formFieldRow div {
+        padding: 0 1em;
+    }
+    .booking-form #Vansterspalt+div {
+        margin: 0 1em;
+        padding-left: 0;
+    }
+    .lSSlideOuter .lSPager.lSGallery img {
+        min-width: 100px;
+    }
+    .lSAction>.lSPrev {
+        background-image: url(/images/18.3a7e2574173ece0c021510/1599574667102/arrow-white-left.png);
+        background-size: 20px 20px;
+        width: 20px;
+        height: 20px;
+        opacity: 1;
+    }
+    .lSAction>.lSNext {
+        background-image: url(/images/18.3a7e2574173ece0c021511/1599574667107/arrow-white-right.png);
+        background-size: 20px 20px;
+        background-position: -20px 0 !important;
+        width: 20px;
+        height: 20px;
+        opacity: 1;
+    }
+    .sv-decoration-log-out-icon {
+        margin-left: 0;
+    }
+    .loginpage #standardLoginSubmit div .bvLoginGroup {
+        width: 100%;
+        margin-right: 0;
+    }
+    .sv-decoration-download a {
+        font-size: 0.7em;
+    }
+    .portletCustomMainFont #contactFormTable {
+        margin-left: 1em;
+        width: 93%;
+        padding: 0;
+    }
+    .message-splash .portletCustomMainFont #contactFormTable {
+        margin-left: 0;
+    }
+    .portletCustomMainFont #contactFormTable td {
+        padding: 0;
+    }
+    .message-splash textarea {
+        height: 150px;
+    }
+    .onboarding-page .loginpage .sv-text-portlet-content p {
+        font-size: 1.2em;
+        margin-left: 0;
+    }
+    .bvBankIDHeading1 {
+        font-size: 1.2em !important;
+    }
+    .loginpage .bvLoginWrapper {
+        margin-left: 0;
+    }
+    .sv-bankidswedenoauth-portlet {
+        margin-left: -23px;
+    }
+    .bvIlCenterImageTag img {
+        width: 70px !important;
+        height: 70px !important;
+    }
+    .bankIdPromoDiv {
+        width: 100% !important;
+    }
+    .booking-form .portletCustomMainFont select {
+        padding: 2% 2% !important;
+        width: 92%;
+        margin-bottom: 10px;
+    }
+    .booking-form .portletCustomMainFont textarea {
+        padding: 2% 2% !important;
+        width: 88%;
+    }
+    .message-splash .portletCustomMainFont select {
+        padding: 1% 2% !important;
+        width: 96%;
+        margin-bottom: 10px;
+    }
+    .message-splash .portletCustomMainFont textarea {
+        padding: 2% 2% !important;
+        width: 92%;
+    }
+    .portletCustomMainFont #contactFormTable {
+        margin-left: auto;
+    }
+    .portletCustomMainFont #contactFormTable td {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .booking-form .portletCustomMainFont textarea {
+        width: 96%;
+    }
+    .booking-form .portletCustomMainFont select {
+        width: 100%;
+    }
+    .message-splash img {
+        cursor: pointer;
+    }
+    .price {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .price div {
+        margin-right: 0;
+        flex-basis: 100%;
+    }
+    .price p {
+        font-size: 0.9em;
+    }
+    .notification {
+        top: 3px;
+        margin-left: 12px;
+        padding: 1px 6px 1px 6px;
+        font-size: 1em;
+    }
+    .btn-big a {
+        white-space: nowrap;
+        padding: 16px 55px;
+    }
+    .footer-nav div:nth-of-type(4) {
+        margin-left: 85%;
+        top: 9%;
+        right: 3%;
+    }
+    .download-box {
+        display: flex !important;
+    }
+    .fixed-footer img {
+        max-width: 50px;
+        width: 50px;
+    }
+    .startpage h1 {
+        margin-bottom: 0;
+        font-size: 2em;
+    }
+    .blueBackgroundPerson:after {
+        content: "";
+        width: 50px;
+        height: 42px;
+        background: url("/images/18.1d53dd01724f87cba1532/1591634082968/profile-white.png") no-repeat;
+        background-position: center center;
+        position: absolute;
+        display: inline-block;
+        background-size: 50px 42px;
+        transform: translateX(-100%);
+    }
+    .blueBackgroundBell:after {
+        content: "";
+        width: 50px;
+        height: 42px;
+        background: url(/images/18.1d53dd01724f87cba1516/1591630169374/concierge-white.png) no-repeat;
+        background-position: center center;
+        position: absolute;
+        display: inline-block;
+        background-size: 50px 42px;
+        transform: translateX(-100%);
+    }
+    .sv-font-black-bold-24pt {
+        font-size: 1.5em;
+    }
+    .loginpage {
+        padding-left: 2em;
+    }
+    .bankidDiv {
+        padding-left: 22px !important;
+    }
+    .confirm_contact {
+        margin: 0 0 1em 1.2em !important;
+    }
+    .sv-decoration-app-logos {
+        margin: 2vh auto auto auto;
+    }
+    #svid10_1e536fcd1729dcc9585211 {
+        padding: 0;
+    }
+}
+
+@media all and (max-width: 670px) {
+    .sv-decoration-phone,
+    .sv-decoration-chat,
+    .sv-decoration-message {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .sv-decoration-big-button {
+        padding: 0 2em;
+    }
+    .c739 {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .call-splash .sv-row:last-child>.sv-layout {
+        margin-top: 50% !important;
+    }
+}
+
+@media all and (max-width: 540px) {
+    .message-splash input[type="submit"],
+    #contactform-containersend-a-message-mobile-app-sv input[type="submit"] {
+        margin-left: 100%;
+        margin-bottom: 1em;
+    }
+    .sv-decoration-phone,
+    .sv-decoration-chat,
+    .sv-decoration-message {
+        width: 26%;
+    }
+}
+
+@media all and (max-width: 50px) {
+    .sv-template-personlig-info .page-head .main-nav .sv-skip-spacer.sv-column-2 {
+        margin-bottom: 0;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .sv-decoration-phone,
+    .sv-decoration-chat,
+    .sv-decoration-message {
+        width: 29%;
+    }
+    .call-splash>div:first-child {
+        position: relative;
+        width: 90% !important;
+        height: 100%;
+        min-width: unset;
+        transform: unset;
+        left: auto;
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width: 380px) {
+    .sv-decoration-phone,
+    .sv-decoration-chat,
+    .sv-decoration-message {
+        width: 31%;
+    }
+    #Messageclose+img {
+        margin-bottom: 0.5em;
+    }
+    /* .call-splash .sv-row:last-child img {
+    left: 9%;
+	}*/
+}
+
+@media all and (max-width: 350px) {
+    .btn-big a {
+        white-space: nowrap;
+        padding: 16px 30px;
+    }
+    .sv-decoration-app-logos div:nth-child(2) {
+        flex-direction: column;
+    }
+    .sv-decoration-app-logos .sv-image-portlet img {
+        margin: auto auto 0.5em auto;
+    }
+}
+
+
+/**  button test 2021-04-30 **/
+
+button,
+input[type=submit] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+
+/** Ylva 211124 **/
+
+.slick-list .slick-track .slick-center .bv-puff .bv-puff__img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 -8px;
+    background-size: cover;
+    /**flex: 0 0 250px;**/
+}
+
+
+/*.carousel-homepage-small .slick-list .slick-track .slick-center .bv-puff .bv-puff__img {
+ 	background-size: contain;
+   
+}*/
+
+.slick-center .bv-puff__content .bv-puff__title h1.sv-font-h1-blue-bold-smaller {
+    margin-top: -0.4em;
+}
+
+.slick-active.slick-center .bv-puff .bv-puff__content .bv-puff__description p {
+    font-family: 'AvenirMedium' !important;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.2em;
+    color: #000000;
+    line-height: 1.5833;
+    margin-top: -0.2em;
+}
+
+#email-sms-permissions-main #permissions .ok-button {
+    background-color: #009ada;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 30px !important;
+    text-align: center;
+    font-family: 'AvenirDemiBold' !important;
+}
+
+#email-sms-permissions-main #permissions .ok-button a {
+    padding: 0;
+}
+
+#email-sms-permissions-main #permissions .ok-button #okLink {
+    font-size: 24px !important;
+}
+
+
+/*faq*/
+
+
+/*
+.sv-template-tom-mall #svid10_1e536fcd1729dcc958510f {
+   margin-top: 0;
+}
+*/
+
+
+/* The media queries below are to center the Send bar on the contact form
+   at the bottom of offer pages */
+
+@media all and (max-width: 950px) {
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+        margin-left: -210px;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+        margin-left: -200px;
+    }
+}
+
+@media all and (max-width: 850px) {
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+        margin-left: -180px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+        margin-left: -170px;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+        margin-left: -160px;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+        margin-left: -150px;
+    }
+}
+
+@media all and (max-width: 650px) {
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+        margin-left: -140px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+        margin-left: -125px;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+        margin-left: -115px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+        margin-left: -100px;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+        margin-left: -85px;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+        margin-left: -70px;
+    }
+}
+
+@media all and (max-width: 350px) {
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+        margin-left: -62px;
+    }
+}
+
+@media all and (max-width: 300px) {
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
+    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+        margin-left: -50px;
+    }
+}
