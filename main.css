@@ -1455,6 +1455,12 @@ button[name=qondorLink] {
 }
 
 @media all and (max-width: 767px) {
+
+    .changeBackground .changeBackground.padding-bottom .car-onboard.carousel.slick-slider .slick-list.draggable {
+        padding-right: 0 !Important;
+        padding-left: 0 !Important;
+    }
+    
     .sv-template-tom-mall-utan-footer .page-head .logo-concierge .sv-image-portlet img {
         margin-left: -5px;
     }
