@@ -369,40 +369,6 @@ p.accordion-content {
 
 /* BANK ID SLUT */
 
-@font-face {
-    font-family: 'Avenir';
-    src: url('/download/18.1d53dd01724f87cba1112/1590662512938/AvenirNext-Regular.ttf') format('truetype')/* Safari, Android, iOS */
-}
-
-@font-face {
-    font-family: 'AvenirBold';
-    src: url('/download/18.1d53dd01724f87cba1113/1590662512945/AvenirNext-Bold.ttf') format('truetype')/* Safari, Android, iOS */
-}
-
-@font-face {
-    font-family: 'AvenirDemiBold';
-    src: url('/download/18.1d53dd01724f87cba1114/1590662512951/AvenirNext-DemiBold.ttf') format('truetype')/* Safari, Android, iOS */
-}
-
-@font-face {
-    font-family: 'AvenirMedium';
-    src: url('/download/18.1d53dd01724f87cba1111/1590662512931/AvenirNext-Medium.ttf') format('truetype')/* Safari, Android, iOS */
-}
-
-@font-face {
-    font-family: 'LloydsBankJackMediumWeb';
-    src: url('/download/18.26909b261748b43e3df3dc/1602152770537/lloyds_bank_jack-mediumWEB.otf') format('opentype')/* Safari, Android, iOS */
-}
-
-.c739 {
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-}
-
-@font-face {
-    font-family: 'Danske';
-    src: url('/download/18.5b99e0f71751c86251d17/1603439885616/dk_text-webfont.ttf') format('truetype')/* Safari, Android, iOS */
-}
 
 .sv-font-dark-medium-14pt,
 .sv-font-white-medium-11pt,
