@@ -1,0 +1,420 @@
+#bankIdSeLogin .bankidDiv .bankIdmsg {
+    font-family: 'AvenirDemiBold';
+}
+
+#bankIdSeLogin .bankidDiv .bankIdBottomDiv #bankIdSeLogin_submitMobileBankid.bankIdLinkButton {
+    font-family: 'AvenirDemiBold';
+}
+
+#BankIDImage {
+    background-color: green;
+}
+
+#bankIdSeLogin .bankidDiv .bankIdBottomDiv {
+    margin: 0;
+}
+
+#bankIdSeLogin .bankIdBottomDiv .bankIDCancel .cancelLink {
+    color: #fff;
+}
+
+.bankIDCancel,
+#bankIdSeLogin_submitMobileBankid {
+    background-color: #009ada;
+    color: #fff;
+}
+
+.bankIDCancel {
+    padding: 0.9em 1.2em 0.7em;
+}
+
+#bankIdSeLogin_submitMobileBankid {
+    padding: 0.5em 0.9em 0.2em;
+    top: -13px;
+    position: relative;
+}
+
+#bankIdLogin_label_bankid_start_heading,
+#bankIdLogin_label_bankid_heading_otherdevice,
+#bankIdLogin_label_bankid_otherdevice,
+#label_bankid_heading_otherdevice,
+#ssn,
+.bankIdBottomDiv,
+.bvIlTag #info,
+.bankIDCancel .cancelLink,
+#bankIdLogin_label_login,
+.bankid_inputBox,
+#bankIdLogin_submitPassword {
+    font-family: 'AvenirDemiBold';
+}
+
+#bankIdLogin_submitMobileBankid,
+#bankIdLogin_submitPassword {
+    color: #009ada;
+}
+
+#bankidmenu .bvUlTag .knapptext,
+#bankIdLogin_submitCommonLogin {
+    font-size: 1.2em;
+    background-color: #009ada;
+    border-radius: 2em;
+    color: #fff;
+}
+
+.bankIDCancel {
+    position: relative;
+    bottom: 6px;
+}
+
+#ssn,
+.bankid_inputBox {
+    border-bottom: 4px solid #009ada !Important;
+}
+
+.sv-bankidswedenoauth-portlet .bvLoginWrapper {
+    display: none;
+}
+
+.onboarding-page .pagecontent .sv-image-portlet img {
+    display: block;
+    margin: 5em auto 3em;
+    width: 15em;
+    height: auto;
+}
+
+.onboarding-page .pagecontent #inputField {
+    display: block;
+    margin: 0 auto 5em;
+    background-color: white;
+    height: 3em;
+    width: 25em;
+    border: none;
+    padding: 0 0.8em;
+    color: #cacdda;
+    font-size: 1.25em;
+}
+
+.onboarding-page .sv-decoration-big-button a {
+    background-image: url(/images/18.4ae913a7171a093527c24/1587541411591/BankID-norway.png);
+    background-position: -20% 50%;
+    background-size: 1.2em 1.2em;
+    background-repeat: no-repeat;
+}
+
+.onboarding-page .sv-text-portlet-content p {
+    height: 0em;
+    line-height: 0em;
+    text-align: center !important;
+}
+
+
+/*	STYLING PAGE HEAD. PLACED HERE WHILE MAIN.CSS IS LOCKED */
+
+@media (max-width: 500px) {
+    .page-head {
+        padding-top: 0.5em;
+        padding-bottom: 0em;
+    }
+    .page-head .logo-concierge,
+    .page-head .sv-column-2 {
+        margin-bottom: 0;
+    }
+    .sv-template-personlig-info .page-head .main-nav .sv-column-2 {
+        margin-top: 0;
+    }
+}
+
+
+/* END STYLING PAGE HEAD*/
+
+@media (max-width: 330px) {
+    .logo-concierge img {
+        width: 185px!important;
+    }
+}
+
+
+/* CAROUSEL ONBOARDING */
+
+@media (max-width: 767px) {
+    .sv-grid-958px .sv-row [class*="sv-column-"].car-onboard.carousel {
+        height: auto;
+    }
+}
+
+
+/*} orphen end tag*/
+
+
+/* END*/
+
+
+/*	FOR HOME OVERLAY START*/
+
+.home-overlay .over1 {
+    background: url(/images/18.1e536fcd1729dcc958540/1591865334445/arrow-instructions_white.png) no-repeat bottom right;
+    background-size: 62px 72px;
+    display: block;
+    height: 120px;
+    background-position: 238px 29px;
+    right: -60%;
+    position: relative;
+    overflow: visible;
+    margin-right: auto;
+    width: 280px;
+    padding-right: 2em;
+    top: 46px;
+    text-align: right;
+}
+
+.home-overlay .over2 {
+    background: url(/images/18.1e536fcd1729dcc958541/1591865341289/arrow-instructions_white-rotated.png) no-repeat bottom left;
+    background-size: 62px 72px;
+    display: block;
+    width: 230px;
+    height: 125px;
+    background-position: top 51px left 1px;
+    overflow: auto;
+    margin-left: 150px;
+    position: relative;
+    top: 470px;
+    left: 30px;
+    text-align: left;
+    padding-left: 24px;
+}
+
+.home-overlay .sv-column-10 .over2 {
+    transition: opacity 0.12s ease-in-out;
+    opacity: 0;
+}
+
+.home-overlay .over2.showOnScrollOverlay {
+    opacity: 1;
+}
+
+#svid10_1e536fcd1729dcc95852c9 {
+    position: fixed;
+    bottom: 0;
+    left: 48%;
+    width: 944px !Important;
+    height: 200px;
+    transform: translateX(-50%);
+}
+
+.home-overlay .over3 {
+    background: url(/images/18.1e536fcd1729dcc958541/1591865341289/arrow-instructions_white-rotated.png) no-repeat bottom left;
+    background-size: 62px 72px;
+    display: block;
+    width: 240px;
+    height: 200px;
+    background-position: top 60px left 0px;
+    overflow: visible;
+    position: relative;
+    bottom: -48px;
+    left: 113px;
+    text-align: left;
+    padding-left: 22px;
+}
+
+.home-overlay .over4 {
+    background: url(/images/18.1e536fcd1729dcc958540/1591865334445/arrow-instructions_white.png) no-repeat bottom left;
+    background-size: 62px 72px;
+    display: block;
+    width: 269px;
+    height: 160px;
+    background-position: top 75px left 79px;
+    overflow: visible;
+    position: relative;
+    bottom: -23px;
+    left: -280px;
+    text-align: right;
+}
+
+@media all and (max-width: 985px) {
+    .home-overlay .over1 {
+        top: 17px;
+    }
+    .home-overlay .over2 {
+        top: 340px;
+    }
+}
+
+@media all and (max-width: 958px) {
+    .home-overlay div[class*="over"] p {
+        font-size: clamp(1em, 2.5vw, 1.2em);
+    }
+    .home-overlay .over1 {
+        top: 102px;
+        background-position: 238px 45px;
+        margin-right: clamp(250px, 67vw, 720px);
+        position: absolute;
+    }
+    .home-overlay .over2 {
+        top: 475px;
+    }
+    .home-overlay .over3 {
+        background-position: top 55px left 0px;
+        bottom: -52px;
+        left: 171px;
+        padding-left: 22px;
+    }
+    .home-overlay .over4 {
+        width: 239px;
+        height: 160px;
+        background-position: top 70px left 39px;
+        bottom: -27px;
+        left: -272px;
+    }
+}
+
+@media (max-width: 767px) {
+    .home-overlay .over1 {
+        background-size: 57px 60px;
+        top: 88px;
+    }
+    .home-overlay .over2 {
+        background-size: 57px 60px;
+        top: 584px;
+        width: 210px;
+    }
+    .home-overlay .over3 {
+        background-size: 57px 60px;
+        background-position: 0px 58px;
+        bottom: -83px;
+        height: 150px;
+        width: 210px;
+        left: 182px;
+        text-align: left;
+        overflow: visible;
+        padding-left: 20px;
+    }
+    .home-overlay .over4 {
+        height: 130px;
+        background-size: 57px 60px;
+        background-position: 40px clamp(50px, 12vw, 71px);
+        bottom: -64px;
+        left: -276px;
+        width: 220px;
+    }
+}
+
+@media (max-width: 740px) {
+    .home-overlay .over3 {
+        left: 195px;
+        bottom: -95px;
+        background-position: 0px 48px;
+    }
+}
+
+@media (max-width: 700px) {
+    .home-overlay .over2 {
+        left: 0px;
+        width: 190px;
+        top: 583px;
+        background-position: top 44px left 1px;
+    }
+    .home-overlay .over3 {
+        left: 210px;
+    }
+}
+
+@media (max-width: 670px) {
+    .home-overlay .over2 {
+        width: 180px;
+        top: 585px;
+        left: -30px;
+        background-position: top 40px left 1px;
+    }
+    .home-overlay .over3 {
+        width: 180px;
+        bottom: -101px;
+        background-position: 0px 42px;
+    }
+    .home-overlay .over4 {
+        background-position: 40px 60px;
+        bottom: -75px;
+        left: -298px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 650px) {
+    .home-overlay .over3 {
+        left: 225px;
+    }
+}
+
+@media (max-width: 600px) {
+    .home-overlay .over3 {
+        left: 240px;
+    }
+}
+
+@media (max-width: 550px) {
+    .home-overlay .over3 {
+        left: 257px;
+    }
+    .home-overlay .over4 {
+        height: 150px;
+        background-position: 20px 80px;
+        bottom: -56px;
+        left: -330px;
+        width: 150px;
+    }
+}
+
+@media (max-width: 500px) {
+    .home-overlay .over1 {
+        top: 63px;
+    }
+    .home-overlay .over2 {
+        left: -60px;
+        top: 572px;
+    }
+    .home-overlay .over3 {
+        left: 270px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-overlay .over2 {
+        top: 525px;
+    }
+}
+
+@media (max-width: 450px) {
+    .home-overlay .over2 {
+        left: -100px;
+    }
+    .home-overlay .over3 {
+        left: 288px;
+    }
+}
+
+@media (max-width: 400px) {
+    .home-overlay .over3 {
+        left: 303px;
+    }
+}
+
+@media (max-width: 390px) {
+    .home-overlay .over2 {
+        top: 537px;
+    }
+}
+
+@media (max-width: 321px) {
+    .home-overlay .over2 {
+        top: 554px;
+        left: -120px;
+    }
+}
+
+@media (max-width: 315px) {
+    .home-overlay .over2 {
+        top: 576px;
+    }
+}
+
+
+/*	END FOR HOME OVERLAY*/
