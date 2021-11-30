@@ -1,0 +1,201 @@
+@media all and (max-width: 767px){
+    .sv-fluid-grid.sv-grid-958px {
+       margin: 0;
+    }
+    .txa-t-and-c {
+       max-width: 98%;
+       padding: 0px;
+       margin-left: 0em;
+         margin-right: 0em;
+    }
+ }
+ 
+ /*	CAROUSEL TUTORIAL VIEW*/
+ .mobile-content .car-onboard .bv-puff__title,
+ .mobile-content .car-onboard .bv-puff__description{
+    text-align: center;
+ }
+ .mobile-content .car-onboard .slick-dots {
+    display: flex;
+    justify-content: center;
+ }
+ 
+ /**/
+ 
+ 
+ /* SEND US A MESSAGE FORM */
+ #customContactFormSubmit{margin-bottom:4px}
+ .mobile-content #customContactFormSubmit td{padding:0}
+ 
+ .mobile-content #customContactFormSubmit select{
+    display:block;
+    box-sizing:border-box;
+    color:#0099da;
+    background-color:#fff;
+    background-image:none;
+    width:100%;
+    padding:0 0 0 12px;
+    line-height:normal!important;
+    height:1.8em;
+    border:1px solid #ccc;
+    border-radius:4px;
+    box-shadow:inset 0 1px 1px rgba(0,0,0,.075);
+    transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    font-family:'AvenirDemiBold'!important;
+    /*font-weight:bold;*/
+    font-style:normal;
+    font-size:1.1em;
+    overflow:hidden!important;
+    margin-bottom:1em;
+ }
+ .mobile-content #customContactFormSubmit textarea{
+    display:block;
+    box-sizing:border-box;
+    color:#555;
+    background-color:#fff;
+    background-image:none;
+    width:100%;
+    padding:12px;
+    line-height:normal!important;
+    height:2em;
+    border:1px solid #ccc;
+    border-radius:4px;
+    box-shadow:inset 0 1px 1px rgba(0,0,0,.075);
+    transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    min-height:20em;
+    font-family: 'Avenir'!important;
+ }
+ /*.mobile-content .sv-form-portlet .sv-defaultFormTheme .sv-formFieldRow select,
+ .mobile-content .sv-form-portlet .sv-defaultFormTheme .sv-formFieldRow textarea,*/
+ 
+ .mobile-content #customContactFormSubmit select,
+ .mobile-content #customContactFormSubmit textarea{
+    border-radius:10px
+ }
+ .mobile-content #customContactFormSubmit{
+    position:relative;
+    width:100%;
+    margin:0;
+ }
+ .mobile-content #customContactFormSubmit input[type=submit]{
+    -webkit-appearance:none;
+    -webkit-border-radius:0;
+    font:inherit;
+    cursor:pointer;
+    outline:inherit;
+    padding:4px 12px;
+    margin-bottom:0;
+    font-weight:normal;
+    line-height:1.42857143;
+    text-align:center;
+    white-space:nowrap;
+    vertical-align:middle;
+    -ms-touch-action:manipulation;
+    touch-action:manipulation;
+    cursor:pointer;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    border:1px solid #ccc;
+    border-radius:4px;
+    color:#333;
+    background-color:#fff;
+    border-color:#ccc;
+    border:1px solid #fff;
+    padding:4px 12px;
+    font-size: 1.3em;
+    appearance:none;
+ }
+ .mobile-content #customContactFormSubmit input[type=submit]{
+    display:block;
+    min-width:7em;
+    line-height:1.8;
+    background-color:#fff;
+    color:#009ada;
+    border-radius:6px;
+    float: right;
+    margin-top: 5px;
+    /*
+    font-weight:600;
+    margin:0 auto;
+    position:absolute;
+    right:3%;
+    bottom:6%;
+    */
+    
+ }
+ 
+ .mobile-content .sv-form-portlet {
+    margin-bottom: 4px;
+ }
+ .mobile-content .sv-form-portlet .sv-defaultFormTheme .sv-formFieldRow div label {
+    color:#fff;
+    display:inline-block;
+    margin-bottom:4px;
+    margin-left:2px;
+ }
+ .mobile-content .sv-form-portlet .sv-defaultFormTheme .sv-formFieldRow select,
+ .mobile-content .sv-form-portlet .sv-defaultFormTheme .sv-formFieldRow textarea {
+    border-radius: 10px;
+ }
+ 
+ .mobile-content .sv-form-portlet .sv-defaultFormTheme .sv-formFieldRow select {
+    box-shadow: none;
+ }
+ 
+ .mobile-content .sv-form-portlet .sv-defaultFormTheme .sv-formFieldRow textarea {
+    padding: 12px;
+ }
+ .mobile-content .sv-form-portlet .sv-defaultFormTheme .sv-formFieldRow:first-of-type {
+    margin-bottom: 15px;
+ }
+ .mobile-content .sv-form-portlet .sv-defaultFormTheme .sv-formFieldRow .sv-formField:last-of-type{
+    margin-bottom: 0;
+ }
+ .mobile-content .sv-form-portlet form {
+    position: relative;
+ }
+ .mobile-content .sv-form-portlet .sv-defaultFormTheme .sv-formFieldRow input[type=submit] {
+    display: block;
+    margin: 0 auto;
+    font-weight: 600;
+    min-width: 9em;
+    line-height: 1.8;
+    
+    position: absolute;
+    right: 3%;
+    bottom: 6%;
+    background-color: #009ada;
+    color: #fff;
+    border-radius: 6px;
+ }
+ 
+ .mobile-content .sv-form-portlet > div > span.normal {
+    color: #fff;
+ }
+ .mobile-content .sv-form-portlet + .sv-text-portlet p {
+    margin: 0;
+ }
+ @media all and (max-width: 767px){
+    .mobile-content #customContactFormSubmit select, 
+    .mobile-content #customContactFormSubmit textarea {
+       margin-left: 0;
+       margin-right: 0;
+    }
+    
+    .mobile-content .portletCustomMainFont #contactFormTable{
+       margin-left: 0;
+    }
+ }
+ 
+ /*	END MESSAGE FORM*/
+ 
+ /*	Superoffice chat window */
+ 
+ #SuperOffice_chatdiv.mobileAppContent {
+    right: -10px !important;
+    bottom: -10px !important;
+ }
+ 
+ 
