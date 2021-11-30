@@ -1,4 +1,6 @@
 /* a test */
+
+
 /*
 .page-head {
    border: 1px solid red;
@@ -18,6 +20,7 @@
 .sv-template-inspirational-offer .page-head .main-nav .sv-skip-spacer.sv-column-2,
 .sv-template-inspirational-offer .page-head .main-nav .sv-column-2 {
     margin-left: 0;
+    width: -moz-fit-content;
     width: fit-content;
     padding: 0;
     position: absolute;
@@ -29,6 +32,7 @@
     float: none;
     margin: 0;
     padding: 0;
+    width: -moz-fit-content;
     width: fit-content;
 }
 
@@ -75,8 +79,8 @@
 
 .sv-decoration-app-logos .sv-image-portlet img {
     margin: 0.5em;
-    width: 130px !Important;
-    height: 38px !Important;
+    width: 130px !important;
+    height: 38px !important;
 }
 
 
@@ -144,14 +148,14 @@ button.toggle-content .image-container {
 }
 
 button.toggle-content span.text {
-    font-family: 'AvenirMedium' !important;
+    font-family: "AvenirMedium" !important;
     font-weight: 100 !important;
     font-size: 1.4em !important;
     color: black;
 }
 
 p.accordion-content {
-    font-family: 'AvenirMedium' !important;
+    font-family: "AvenirMedium" !important;
 }
 
 
@@ -222,7 +226,7 @@ p.accordion-content {
 }
 
 .bvBankIDHeading1 {
-    font-family: 'AvenirDemiBold' !important;
+    font-family: "AvenirDemiBold" !important;
     font-size: 1.5em !important;
     text-align: left !important;
 }
@@ -233,7 +237,7 @@ p.accordion-content {
 }
 
 #bankidsemenu input {
-    font-family: 'AvenirDemiBold' !important;
+    font-family: "AvenirDemiBold" !important;
     background-color: #0099da;
     color: #fff;
     padding: 12px 0;
@@ -249,7 +253,7 @@ p.accordion-content {
 
 .bankIdContentDiv,
 .bankIdPromoDiv {
-    font-family: 'Avenir' !important;
+    font-family: "Avenir" !important;
     align-self: flex-start !important;
 }
 
@@ -298,7 +302,7 @@ p.accordion-content {
 
 .loginpage .bvLoginWrapper label {
     text-align: left !important;
-    font-family: 'AvenirMedium' !important;
+    font-family: "AvenirMedium" !important;
     color: #111;
     font-size: 1.4em;
     font-weight: bold;
@@ -306,16 +310,16 @@ p.accordion-content {
     padding-left: 0.5em;
 }
 
-.loginpage .bvLoginWrapper input[type='text'],
-.loginpage .bvLoginWrapper input[type='password'] {
+.loginpage .bvLoginWrapper input[type="text"],
+.loginpage .bvLoginWrapper input[type="password"] {
     padding: 15px;
     background-color: #f7f7f7 !important;
     border: 0;
     border-radius: 0;
-    font-family: 'AvenirMedium' !important;
+    font-family: "AvenirMedium" !important;
 }
 
-.loginpage .bvLoginWrapper input[type='submit'] {
+.loginpage .bvLoginWrapper input[type="submit"] {
     padding: 12px 30px 39px 30px;
     width: 250px;
     max-width: none;
@@ -324,7 +328,7 @@ p.accordion-content {
     border: 0;
     border-radius: 0;
     color: #fff;
-    font-family: 'AvenirMedium' !important;
+    font-family: "AvenirMedium" !important;
     font-size: 1.2em;
 }
 
@@ -338,7 +342,7 @@ p.accordion-content {
 
 .loginpage #standardLoginSubmit div .bvLoginGroup {
     width: 48%;
-    font-family: 'Avenir' !important;
+    font-family: "Avenir" !important;
 }
 
 .loginpage #standardLoginSubmit div .bvLoginGroup:first-child {
@@ -346,7 +350,7 @@ p.accordion-content {
 }
 
 .loginpage #standardLoginSubmit div .bvLoginGroup input {
-    font-family: 'AvenirDemiBold' !important;
+    font-family: "AvenirDemiBold" !important;
     font-size: 1.2em;
 }
 
@@ -369,13 +373,12 @@ p.accordion-content {
 
 /* BANK ID SLUT */
 
-
 .sv-font-dark-medium-14pt,
 .sv-font-white-medium-11pt,
 .sv-font-dark-demibold-15pt,
 .sv-font-dark-demibold-12pt,
 .sv-font-black-regular-12pt {
-    font-family: 'Avenir' !important;
+    font-family: "Avenir" !important;
 }
 
 .sv-font-dark-bold-15pt,
@@ -384,7 +387,7 @@ p.accordion-content {
 .sv-font-black-demibold-18pt,
 .sv-font-white-demibold-22pt,
 .sv-font-dark-demibold-16pt {
-    font-family: 'AvenirDemiBold' !important;
+    font-family: "AvenirDemiBold" !important;
     line-height: 1.2em;
 }
 
@@ -395,7 +398,7 @@ h2.sv-text-align-center,
 h3.subheading3,
 h1.heading,
 .notification {
-    font-family: 'AvenirBold' !important;
+    font-family: "AvenirBold" !important;
 }
 
 .sv-font-dark-medium-13pt,
@@ -404,7 +407,7 @@ h1.heading,
 .sv-font-dark-medium-12pt,
 .sv-font-dark-medium-15pt,
 .sv-font-dark-demibold-14pt {
-    font-family: 'AvenirMedium' !important;
+    font-family: "AvenirMedium" !important;
 }
 
 body a:hover {
@@ -433,7 +436,7 @@ body a:hover {
 }
 
 .margin-auto {
-    margin: auto !Important;
+    margin: auto !important;
 }
 
 .btn-big {
@@ -447,7 +450,7 @@ body a:hover {
 }
 
 .btn-big a {
-    font-family: 'AvenirDemiBold' !important;
+    font-family: "AvenirDemiBold" !important;
     display: block;
     padding: 16px 112px;
 }
@@ -467,7 +470,7 @@ body a:hover {
 }
 
 .txa-t-and-c {
-    font-family: 'AvenirMedium' !important;
+    font-family: "AvenirMedium" !important;
     font-size: 16px;
     padding: 1.3%;
     width: 96.9%;
@@ -509,6 +512,7 @@ textarea::-webkit-scrollbar {
 textarea::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
     background-color: #009ada;
 }
 
@@ -572,9 +576,9 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .contactform-container form label,
-.contactform-container form input[type=text],
-.contactform-container form input[type=tel],
-.contactform-container form input[type=email] {
+.contactform-container form input[type="text"],
+.contactform-container form input[type="tel"],
+.contactform-container form input[type="email"] {
     display: none;
 }
 
@@ -590,7 +594,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .contactform-container textarea {
-    width: 100% !Important;
+    width: 100% !important;
     border: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -661,7 +665,7 @@ color:#fff;
     margin-top: 4px;
     border: 0;
     overflow: hidden;
-    font-family: 'Avenir' !important;
+    font-family: "Avenir" !important;
 }
 
 .booking-form .sv-formFieldRow div {
@@ -690,7 +694,7 @@ color:#fff;
 /* Kontakt portlet */
 
 .portletCustomMainFont #contactFormTable input {
-    font-family: 'AvenirDemiBold' !important;
+    font-family: "AvenirDemiBold" !important;
 }
 
 .portletCustomMainFont tr:nth-child(1),
@@ -746,7 +750,7 @@ color:#fff;
 .confirm_contact {
     margin: 0 0 1em 4em !important;
     padding-left: 1.8em;
-    font-family: 'AvenirDemiBold' !important;
+    font-family: "AvenirDemiBold" !important;
     color: #009ada;
     font-size: 0.8em;
     background: url(https://conciergestage.stoppservice.com/images/18.1d53dd01724f87cba14ca/1591626577465/check.png) no-repeat top left;
@@ -799,7 +803,7 @@ color:#fff;
     outline: none;
 }
 
-button[name=qondorLink] {
+button[name="qondorLink"] {
     background: none;
     color: inherit;
     border: none;
@@ -808,7 +812,7 @@ button[name=qondorLink] {
 
 
 /*.selected {
-   
+
 }*/
 
 .sv-font-read-more {
@@ -865,7 +869,7 @@ button[name=qondorLink] {
 .home-overlay {
     display: none;
     /*  ÄNDRA TILLBAKA TILL DISPLAY: NONE;   */
-    opacity: 0.80;
+    opacity: 0.8;
     background: #009ada;
     width: 100%;
     height: 100%;
@@ -878,7 +882,8 @@ button[name=qondorLink] {
 
 .home-overlay #Close-0+div {
     cursor: pointer;
-    display: inline-block;
+    /* inline-block is ignored due to the float. If 'float' has a value other than 'none', the box is floated and 'display' is treated as 'block' */
+    /* display: inline-block; */
     float: right;
     margin-right: 10px;
 }
@@ -940,9 +945,9 @@ button[name=qondorLink] {
 }
 
 
-/*.message-splash div.sv-formFieldRow {   
+/*.message-splash div.sv-formFieldRow {
   xpadding:0 50px;
-   
+
 }*/
 
 .message-splash img {
@@ -958,7 +963,7 @@ button[name=qondorLink] {
     height: 45px;
     border-radius: 10px;
     padding: 0 0 0 2%;
-    font-family: 'AvenirDemiBold' !important;
+    font-family: "AvenirDemiBold" !important;
     border: 0;
     -moz-appearance: none;
     /* Firefox */
@@ -986,7 +991,7 @@ button[name=qondorLink] {
     /* width:86%; */
     border-radius: 10px;
     height: 250px;
-    font-family: 'Avenir' !important;
+    font-family: "Avenir" !important;
 }
 
 .message-splash textarea::placeholder {
@@ -1007,7 +1012,7 @@ button[name=qondorLink] {
     height: 43px;
     border: 0;
     width: 180px;
-    font-family: 'AvenirDemiBold' !important;
+    font-family: "AvenirDemiBold" !important;
     border-radius: 5px;
     cursor: pointer;
     /* top: 10px; */
@@ -1018,7 +1023,7 @@ button[name=qondorLink] {
 }
 
 .message-splash .sv-text-portlet-content p {
-    font-family: 'Avenir' !important;
+    font-family: "Avenir" !important;
 }
 
 .sv-decoration-send-us-a-message {
@@ -1026,6 +1031,7 @@ button[name=qondorLink] {
     margin-bottom: 50px;
     background-size: 35px;
     background-position-y: -3px;
+    width: -moz-fit-content;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
@@ -1053,7 +1059,7 @@ button[name=qondorLink] {
 }
 
 .download-box {
-    display: flex !Important;
+    display: flex !important;
     justify-content: center;
     align-items: center;
 }
@@ -1091,7 +1097,7 @@ button[name=qondorLink] {
 
 
 /*.personal-info .fixed-footer .sv-grid-958px, .personal-info .fixed-footer .sv-grid-958px div {
-  
+
     xmax-width:750px !important;
 }*/
 
@@ -1111,7 +1117,7 @@ button[name=qondorLink] {
     font-size: 1.2em;
 }
 
-.personal-info input[type='text'] {
+.personal-info input[type="text"] {
     width: 370px;
     height: 20px;
     border: 0;
@@ -1122,7 +1128,7 @@ button[name=qondorLink] {
     padding: 10px;
 }
 
-.personal-info input[type='text']::placeholder {
+.personal-info input[type="text"]::placeholder {
     color: #aaa;
 }
 
@@ -1155,7 +1161,7 @@ button[name=qondorLink] {
 /*.icon-bell {
  xbackground-color:#0099da;
     xbackground: url(https://conciergestage.stoppservice.com/images/18.1d53dd01724f87cba1516/1591630169374/concierge-white.png) no-repeat center center #0099da;
-  xbackground-size: 62px 72px; 
+  xbackground-size: 62px 72px;
 }*/
 
 .sv-decoration-log-out-icon {
@@ -1258,7 +1264,7 @@ button[name=qondorLink] {
     margin-top: -15px;
     margin-left: 50px;
     border-right: 1px solid #eee;
-    content: '';
+    content: "";
 }
 
 
@@ -1331,10 +1337,12 @@ button[name=qondorLink] {
 
 .lSSlideOuter .lSPager.lSGallery li {
     -webkit-filter: brightness(50%);
+    filter: brightness(50%);
 }
 
 .lSSlideOuter .lSPager.lSGallery li.active {
     -webkit-filter: brightness(100%);
+    filter: brightness(50%);
 }
 
 .lSAction>.lSPrev {
@@ -1365,7 +1373,7 @@ button[name=qondorLink] {
 }*/
 
 .sv-text-portlet-content p.sv-font-dark-demibold-16pt {
-    font-family: 'AvenirDemiBold' !important;
+    font-family: "AvenirDemiBold" !important;
     margin-bottom: 12px;
 }
 
@@ -1391,7 +1399,7 @@ button[name=qondorLink] {
 
 /*   .main-nav div:first-of-type {
       margin-top:0 !important;
-      xpadding-top:10px !important;      
+      xpadding-top:10px !important;
    }
 */
 
@@ -1400,7 +1408,7 @@ button[name=qondorLink] {
 }
 
 .booking-form .portletCustomMainFont select {
-    font-family: 'Avenir' !important;
+    font-family: "Avenir" !important;
 }
 
 .call-splash .sv-row:last-child>.sv-layout {
@@ -1483,30 +1491,27 @@ button[name=qondorLink] {
     /*Ylva start 21111*/
     /* welcome page */
     .startpage {
-        margin-left: .9em;
-        margin-right: .9em;
+        margin-left: 0.9em;
+        margin-right: 0.9em;
     }
     /*login page*/
     .loginPage {
-        margin-left: .9em;
-        margin-right: .9em;
+        margin-left: 0.9em;
+        margin-right: 0.9em;
     }
     /*Ylva end*/
     .txa-t-and-c {
         height: 10em;
     }
-    
     #email-sms-permissions-main #permissions h1 {
-        font-size: 1.7em !Important;
+        font-size: 1.7em !important;
     }
     #permissions h1 {
         font-size: 1.8em;
     }
-  
     .sv-Email-Permission #email-sms-permissions-main #permissions .ok-button #okLink {
         font-size: 1em !important;
     }
-  
     .page-head {
         padding-top: 2em;
     }
@@ -1633,7 +1638,7 @@ button[name=qondorLink] {
     .message-splash {
         padding-top: 10px;
     }
-    #contactform-containersend-a-message-mobile-app-sv input[type=submit] {
+    #contactform-containersend-a-message-mobile-app-sv input[type="submit"] {
         position: relative;
         left: unset;
         margin-left: unset;
@@ -1641,7 +1646,7 @@ button[name=qondorLink] {
         /* margin-right: clamp(1.4em,-0.75em + 8vw,2.4em);  */
         /**margin-right: 6%;**/
     }
-    .personal-info input[type='text'] {
+    .personal-info input[type="text"] {
         width: 100%;
     }
     .personal-info form div#submit {
@@ -1962,7 +1967,7 @@ button[name=qondorLink] {
 /**  button test 2021-04-30 **/
 
 button,
-input[type=submit] {
+input[type="submit"] {
     -webkit-appearance: none;
     -moz-appearance: none;
 }
@@ -1983,7 +1988,7 @@ input[type=submit] {
 }
 
 .slick-active.slick-center .bv-puff .bv-puff__content .bv-puff__description p {
-    font-family: 'AvenirMedium' !important;
+    font-family: "AvenirMedium" !important;
     font-weight: normal;
     font-style: normal;
     font-size: 1.2em;
@@ -1998,7 +2003,7 @@ input[type=submit] {
     padding: 10px 0;
     margin-top: 30px !important;
     text-align: center;
-    font-family: 'AvenirDemiBold' !important;
+    font-family: "AvenirDemiBold" !important;
 }
 
 #email-sms-permissions-main #permissions .ok-button a {
