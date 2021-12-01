@@ -1962,7 +1962,7 @@ input[type="submit"] {
 }
 
 
-/** Ylva 211124 **/
+
 
 .slick-list .slick-track .slick-center .bv-puff .bv-puff__img {
     width: 100%;
@@ -1976,15 +1976,7 @@ input[type="submit"] {
     margin-top: -0.4em;
 }
 
-/*.slick-active.slick-center .bv-puff .bv-puff__content .bv-puff__description p {
-    font-family: "AvenirMedium" !important;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 1.2em;
-    color: #000000;
-    line-height: 1.5833;
-    margin-top: -0.2em;
-}*/
+
 
 #email-sms-permissions-main #permissions .ok-button {
     background-color: #009ada;
