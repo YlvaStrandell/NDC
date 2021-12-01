@@ -1419,6 +1419,46 @@ button[name="qondorLink"] {
     margin-top: 40vh;
 }
 
+.slick-list .slick-track .slick-center .bv-puff .bv-puff__img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 -8px;
+    background-size: cover;
+    /**flex: 0 0 250px;**/
+}
+
+.slick-center .bv-puff__content .bv-puff__title h1.sv-font-h1-blue-bold-smaller {
+    margin-top: -0.4em;
+}
+
+
+
+#email-sms-permissions-main #permissions .ok-button {
+    background-color: #009ada;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 30px !important;
+    text-align: center;
+    font-family: "AvenirDemiBold" !important;
+}
+
+#email-sms-permissions-main #permissions .ok-button a {
+    padding: 0;
+}
+
+#email-sms-permissions-main #permissions .ok-button #okLink {
+    font-size: 24px !important;
+}
+
+
+/*faq*/
+
+
+/*
+.sv-template-tom-mall #svid10_1e536fcd1729dcc958510f {
+   margin-top: 0;
+}
+*/
 
 /* MOBILE START */
 
@@ -1964,46 +2004,7 @@ input[type="submit"] {
 
 
 
-.slick-list .slick-track .slick-center .bv-puff .bv-puff__img {
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: 0 -8px;
-    background-size: cover;
-    /**flex: 0 0 250px;**/
-}
 
-.slick-center .bv-puff__content .bv-puff__title h1.sv-font-h1-blue-bold-smaller {
-    margin-top: -0.4em;
-}
-
-
-
-#email-sms-permissions-main #permissions .ok-button {
-    background-color: #009ada;
-    color: #fff;
-    padding: 10px 0;
-    margin-top: 30px !important;
-    text-align: center;
-    font-family: "AvenirDemiBold" !important;
-}
-
-#email-sms-permissions-main #permissions .ok-button a {
-    padding: 0;
-}
-
-#email-sms-permissions-main #permissions .ok-button #okLink {
-    font-size: 24px !important;
-}
-
-
-/*faq*/
-
-
-/*
-.sv-template-tom-mall #svid10_1e536fcd1729dcc958510f {
-   margin-top: 0;
-}
-*/
 
 
 /* The media queries below are to center the Send bar on the contact form
