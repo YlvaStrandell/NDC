@@ -1450,6 +1450,14 @@ button[name="qondorLink"] {
     font-size: 24px !important;
 }
 
+/**  button test 2021-04-30 **/
+
+button,
+input[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
 
 /*faq*/
 
@@ -1991,20 +1999,6 @@ button[name="qondorLink"] {
         margin: auto auto 0.5em auto;
     }
 }
-
-
-/**  button test 2021-04-30 **/
-
-button,
-input[type="submit"] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-}
-
-
-
-
-
 
 
 /* The media queries below are to center the Send bar on the contact form
