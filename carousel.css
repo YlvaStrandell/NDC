@@ -210,6 +210,11 @@
     /*.slick-list { 
         height:82vh;   
      }*/
+
+     /* 
+    .car-onboard.slick-slider .slick-slide{
+   height: 80vh; 
+}*/
     
 }
 
@@ -223,11 +228,15 @@
     .car-onboard {
         height: auto;
     }
+
     
     .slick-list {
         height: auto;
     }
    
+    .car-onboard.slick-slider .slick-slide {
+        height: auto;
+    }
 }
 
 
