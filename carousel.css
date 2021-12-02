@@ -394,6 +394,9 @@
         margin-bottom: 10px;
         max-width: 100%;
     }
+    .slick-list {
+        margin: 0 -12px;
+    }
     .car-onboard.slick-slider div.slick-list.draggable .slick-track .slick-slide {
         margin: 0 auto;
     }
