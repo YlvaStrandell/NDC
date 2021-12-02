@@ -1,3 +1,4 @@
+@@ -1,476 +1,476 @@
 
 .sv-bvBildSpel {
     width: 980px;
@@ -385,6 +386,7 @@
     .sv-grid-958px .sv-row *[class*='sv-column-'].carousel {
         margin: 0;
         /*width:110%;*/
+       /* width: 90% !important;*/
         width: auto !important;
         flex-grow: 1;
         height: 425px;
@@ -394,16 +396,9 @@
         margin-bottom: 10px;
         max-width: 100%;
     }
-    
-
-    /* the parent */
-    /*.slick-list {
-      margin: 0 auto;
-    }*/
-
-    /*.car-onboard.slick-slider div.slick-list.draggable .slick-track .slick-slide {
-        margin: 0 auto;
-    }*/
+    .car-onboard.slick-slider div.slick-list.draggable .slick-track .slick-slide {
+        margin: 0 15px;
+    }
     .slick-dots li button:before {
         font-size: 50px;
     }
