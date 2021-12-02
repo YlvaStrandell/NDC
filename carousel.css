@@ -1,4 +1,4 @@
-@@ -1,476 +1,476 @@
+
 
 .sv-bvBildSpel {
     width: 980px;
@@ -9,7 +9,7 @@
 .wrapper {
     width: 100%;
     align-items: center;
-    margin: 0px auto;
+    margin: 0px 0px;
     display:flex; 
     justify-content:center; 
 }
