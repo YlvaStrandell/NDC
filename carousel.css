@@ -336,6 +336,12 @@
    height: 80vh;
 } 
    */
+
+   .changeBackground .changeBackground.padding-bottom .car-onboard.carousel.slick-slider .slick-list.draggable {
+    padding-right: 0 !Important;
+    padding-left: 0 !Important;
+}
+
     #email-sms-permissions-main #permissions .ok-button {
         background-color: #009ada;
         color: #fff;
