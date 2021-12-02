@@ -390,16 +390,16 @@
         height: 425px;
     }
     .slick-slide {
-        margin: 0 auto;
+        margin: 0 5px;
         margin-bottom: 10px;
         max-width: 100%;
     }
     
 
     /* the parent */
-    .slick-list {
+    /*.slick-list {
       margin: 0 auto;
-    }
+    }*/
 
     /*.car-onboard.slick-slider div.slick-list.draggable .slick-track .slick-slide {
         margin: 0 auto;
