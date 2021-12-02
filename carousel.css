@@ -338,12 +338,17 @@
 } 
    */
 
+   .car-onboard.carousel .slick-slide{
+    width: 92vw !important;
+    } 
+
+
    .changeBackground .changeBackground.padding-bottom .car-onboard.carousel.slick-slider .slick-list.draggable {
     padding-right: 0 !Important;
     padding-left: 0 !Important;
-}
+    }   
 
-    #email-sms-permissions-main #permissions .ok-button {
+    /*#email-sms-permissions-main #permissions .ok-button {
         background-color: #009ada;
         color: #fff;
         padding: 15px 0;
@@ -354,7 +359,7 @@
     }
     #email-sms-permissions-main #permissions .ok-button #okLink {
         font-size: 1em !important;
-    }
+    }*/
     
     .sv-template-tom-mall-utan-footer-inloggad .changeBackground .changeBackground .car-onboard .draggable .slick-track .sv-bv-bildpuff {
         height: 100% !Important;
