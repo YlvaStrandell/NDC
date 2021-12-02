@@ -395,7 +395,7 @@
         max-width: 100%;
     }
     .car-onboard.slick-slider div.slick-list.draggable .slick-track .slick-slide {
-        margin: 0 15px;
+        margin: 0 auto;
     }
     .slick-dots li button:before {
         font-size: 50px;
