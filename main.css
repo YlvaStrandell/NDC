@@ -1,4 +1,3 @@
-/* a test */
 
 
 /*
@@ -945,11 +944,6 @@ button[name="qondorLink"] {
 }
 
 
-/*.message-splash div.sv-formFieldRow {
-  xpadding:0 50px;
-
-}*/
-
 .message-splash img {
     width: 1.2em !important;
     height: 1.2em !important;
@@ -1091,16 +1085,6 @@ button[name="qondorLink"] {
 }
 
 
-/*.personal-info .sv-template-layout div {
-    xmax-width:550px;
-}*/
-
-
-/*.personal-info .fixed-footer .sv-grid-958px, .personal-info .fixed-footer .sv-grid-958px div {
-
-    xmax-width:750px !important;
-}*/
-
 .personal-info form div#submit {
     display: flex;
     align-items: center;
@@ -1137,10 +1121,6 @@ button[name="qondorLink"] {
     max-width: 958px;
 }
 
-#permissions2 div p {
-    margin-right: 10px;
-    font-size: 1.2em;
-}
 
 .small-view {
     width: 80% !important;
@@ -1157,12 +1137,6 @@ button[name="qondorLink"] {
     padding: 0.5em 5em;
 }
 
-
-/*.icon-bell {
- xbackground-color:#0099da;
-    xbackground: url(https://conciergestage.stoppservice.com/images/18.1d53dd01724f87cba1516/1591630169374/concierge-white.png) no-repeat center center #0099da;
-  xbackground-size: 62px 72px;
-}*/
 
 .sv-decoration-log-out-icon {
     margin-left: 20px;
@@ -1221,12 +1195,6 @@ button[name="qondorLink"] {
 }
 
 
-/*.lightSlider .sv-custom-module {
-   xoverflow:hidden;
-   xborder-radius:20px;
-    xwidth:90%;
-}*/
-
 .lSSlideOuter .lSPager.lSpg {
     position: absolute;
     left: 50%;
@@ -1267,17 +1235,6 @@ button[name="qondorLink"] {
     content: "";
 }
 
-
-/*.sv-decoration-chat:before {
-   height: 90px;
-    display: inline-block;
-   position:absolute;
-    width: 20px;
-    margin-top:-15px;
-   margin-left:50px;
-    border-right: 1px solid #eee;
-    content: '';
-}*/
 
 .contactbox #Close+img {
     margin-bottom: 130px;
@@ -1368,10 +1325,6 @@ button[name="qondorLink"] {
 }
 
 
-/*.sv-text-portlet-content p, .no_combo_small, .contactform_textArea {
- xfont-family: 'Avenir' !important;
-}*/
-
 .sv-text-portlet-content p.sv-font-dark-demibold-16pt {
     font-family: "AvenirDemiBold" !important;
     margin-bottom: 12px;
@@ -1381,27 +1334,6 @@ button[name="qondorLink"] {
     white-space: normal;
 }
 
-
-/* .main-nav {
-      display:flex;
-      justify-content:flex-start;
-      align-items:center;
-   }
-*/
-
-
-/* .main-nav div {
-      padding:0;
-      display:inline-block;
-   }
-*/
-
-
-/*   .main-nav div:first-of-type {
-      margin-top:0 !important;
-      xpadding-top:10px !important;
-   }
-*/
 
 .logo-concierge {
     text-align: center;
@@ -1458,15 +1390,6 @@ input[type="submit"] {
     -moz-appearance: none;
 }
 
-
-/*faq*/
-
-
-/*
-.sv-template-tom-mall #svid10_1e536fcd1729dcc958510f {
-   margin-top: 0;
-}
-*/
 
 /* MOBILE START */
 
