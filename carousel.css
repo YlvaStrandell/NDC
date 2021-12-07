@@ -340,9 +340,6 @@
 } 
    */
 
-   .car-onboard.carousel .slick-slide {
-    width: 100vw !important;
-   } 
 
 
    .changeBackground .changeBackground.padding-bottom .car-onboard.carousel.slick-slider .slick-list.draggable {
@@ -399,7 +396,7 @@
         height: 425px;
     }
     .slick-slide {
-        margin: 0 auto;
+        margin: 0 5px;
         margin-bottom: 10px;
         max-width: 100%;
     }
