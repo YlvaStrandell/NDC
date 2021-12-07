@@ -230,6 +230,10 @@
     text-align: right;
 }
 
+.sv-template-tom-mall-utan-footer-inloggad .pagecontent .sv-fixed-fluid-grid.sv-grid-958px.sv-layout.sv-skip-spacer {
+    width: 100%;
+}
+
 @media all and (max-width: 985px) {
     .home-overlay .over1 {
         top: 17px;
