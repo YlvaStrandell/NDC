@@ -384,7 +384,7 @@
     /*Ylva 211112 end*/
     .wrapper {
         text-align: center;
-        margin: 0.5em auto;
+        /*margin: 0.5em auto;*/
         width: 100%;
     }
     .sv-grid-958px .sv-row *[class*='sv-column-'].carousel {
