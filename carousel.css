@@ -10,7 +10,7 @@
     width: 100%;
     align-items: center;
     margin: 0px auto;
-    display:flex; 
+    display:block; 
     justify-content:center; 
 }
 
