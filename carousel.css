@@ -396,7 +396,7 @@
         height: 425px;
     }
     .slick-slide {
-        margin: 0 5px;
+        margin: 0 auto;
         margin-bottom: 10px;
         max-width: 100%;
     }
