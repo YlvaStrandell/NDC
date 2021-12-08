@@ -25,6 +25,7 @@
 .car-onboard {
     display: none;
     overflow: hidden;
+    padding-bottom: 10px;
 }
 
 .car-onboard .slick-next1,
