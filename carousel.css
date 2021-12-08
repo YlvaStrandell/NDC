@@ -20,7 +20,6 @@
     width: 100%;
     margin: 0px auto;
     margin-right: 0;
-    z-index: 1000;
 }
 
 .car-onboard {
@@ -60,6 +59,7 @@
 .slick-dots {
     margin-top: 0;
     padding-left: 0;
+    padding-bottom: 15px;
 }
 
 .slick-dots li {
