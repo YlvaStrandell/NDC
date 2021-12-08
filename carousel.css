@@ -40,6 +40,11 @@
 .slick-slide {
     display: none;
     margin: 0 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.25);
 }
 
 .slick-slide img {
