@@ -408,8 +408,7 @@
     }
     .car-onboard.slick-slider div.slick-list.draggable .slick-track .slick-slide {
         margin: 0 10px;
-        border-color: red;
-        border-width: 1px;
+        border: solid red 1px;
     }
     .slick-dots li button:before {
         font-size: 50px;
