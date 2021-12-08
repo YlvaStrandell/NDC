@@ -60,6 +60,7 @@
 .slick-dots {
     margin-top: 0;
     padding-left: 0;
+    border: solid red 1 px;
 }
 
 .slick-dots li {
