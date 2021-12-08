@@ -1549,9 +1549,7 @@ input[type="submit"] {
         bottom: 58px;
         padding-top: 2em;
     }
-    .padding-bottom {
-        padding-bottom: 80px !important;
-    }
+    
     .small-offer:nth-child(1) {
         margin-bottom: 50px;
     }
