@@ -372,7 +372,7 @@ p.accordion-content {
 
 /* BANK ID SLUT */
 
-.sv-font-dark-medium-14pt,
+/*.sv-font-dark-medium-14pt,
 .sv-font-white-medium-11pt,
 .sv-font-dark-demibold-15pt,
 .sv-font-dark-demibold-12pt,
@@ -407,7 +407,7 @@ h1.heading,
 .sv-font-dark-medium-15pt,
 .sv-font-dark-demibold-14pt {
     font-family: "AvenirMedium" !important;
-}
+}*/
 
 body a:hover {
     text-decoration: none !important;
