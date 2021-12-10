@@ -39,9 +39,9 @@
     padding: 1em;
 }
 
-.sv-grid-958px.sv-fluid-grid {
-    max-width: inherit;
-}
+.sv-template-home2 .hide-me.message-splash .sv-fluid-grid.sv-grid-958px {
+    width: auto;
+ }
 
 .sv-decoration-hollow-button p {
     margin: 19px 0;
