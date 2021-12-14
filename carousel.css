@@ -58,7 +58,7 @@
 }
 
 .slick-dots {
-    margin-top: 0;
+    margin-top: -5px;
     padding-left: 0;
     /*border: solid red 1px;*/
 }
