@@ -889,7 +889,7 @@ button[name="qondorLink"] {
 
 .call-splash {
     opacity: 0.95;
-    background: #0099da;
+    background: #0099DA;
     width: 100%;
     height: 100%;
     z-index: 10000;
@@ -897,6 +897,7 @@ button[name="qondorLink"] {
     left: 0;
     position: fixed;
     text-align: center;
+    padding-top: 5em;
 }
 
 .call-splash p {
@@ -917,12 +918,9 @@ button[name="qondorLink"] {
 }
 
 .call-splash .sv-row:first-child img {
-    margin-right: 1em;
-    /* margin-left: 100%;
-  margin-top:-135px;*/
     cursor: pointer;
     display: block;
-    width: 1.5em !important;
+    width: 1.2em;
     z-index: 100000000;
 }
 
@@ -1343,14 +1341,6 @@ button[name="qondorLink"] {
     font-family: "Avenir" !important;
 }
 
-.call-splash .sv-row:last-child>.sv-layout {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: -5% !important;
-    margin-top: 40vh;
-}
-
 .slick-list .slick-track .slick-center .bv-puff .bv-puff__img {
     width: 100%;
     background-repeat: no-repeat;
@@ -1548,17 +1538,8 @@ input[type="submit"] {
     .contactbox {
         bottom: 58px;
         padding-top: 2em;
-    }
-    
-    .small-offer:nth-child(1) {
-        margin-bottom: 50px;
-    }
-    .call-splash>div:first-child {
-        /*transform: translate(-35%, -35%); */
-        transform: translateX(-50%);
-        min-width: 400px;
-        top: 0;
-    }
+    }   
+
     .call-splash .sv-row:first-child img {
         position: absolute;
         right: 27%;
