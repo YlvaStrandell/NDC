@@ -897,7 +897,6 @@ button[name="qondorLink"] {
     left: 0;
     position: fixed;
     text-align: center;
-    padding-top: 5em;
 }
 
 .call-splash p {
@@ -907,14 +906,6 @@ button[name="qondorLink"] {
 
 .call-splash a {
     font-size: 1.5em;
-}
-
-.call-splash>div:first-child {
-    position: absolute;
-    left: 50%;
-    top: 40%;
-    transform: translate(-50%, -50%);
-    width: 90%;
 }
 
 .call-splash .sv-row:first-child img {
