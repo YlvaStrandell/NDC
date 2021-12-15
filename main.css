@@ -1533,18 +1533,6 @@ input[type="submit"] {
     .contactbox {
         bottom: 58px;
         padding-top: 2em;
-    }   
-
-    .call-splash .sv-row:last-child .sv-image-portlet {
-        display: block;
-        margin-right: 2px;
-    }
-    .call-splash .sv-row:last-child>.sv-layout {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: -5% !important;
-        margin-top: 35vh;
     }
 
     .call-splash p {
@@ -1852,9 +1840,6 @@ input[type="submit"] {
     #Messageclose+img {
         margin-bottom: 0.5em;
     }
-    /* .call-splash .sv-row:last-child img {
-    left: 9%;
-	}*/
 }
 
 @media all and (max-width: 350px) {
