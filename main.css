@@ -1420,7 +1420,6 @@ input[type="submit"] {
 
 @media all and (max-width: 767px) {
 
-
     .sv-template-tom-mall-utan-footer .page-head .logo-concierge .sv-image-portlet img {
         margin-left: -5px;
     }
@@ -1514,6 +1513,11 @@ input[type="submit"] {
         margin-left: 0;
         margin-right: 0;
     }
+
+    .call-splash .sv-fluid-grid.sv-grid-958px.sv-layout.sv-skip-spacer.sv-template-layout {    
+        margin-top: 1.6em !important;
+    }
+
     .main-nav {
         display: flex;
         justify-content: flex-start;
