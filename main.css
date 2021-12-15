@@ -1535,12 +1535,6 @@ input[type="submit"] {
         padding-top: 2em;
     }   
 
-    .call-splash .sv-row:first-child img {
-        position: absolute;
-        right: 27%;
-        cursor: pointer;
-        width: 1.5em !important;
-    }
     .call-splash .sv-row:last-child .sv-image-portlet {
         display: block;
         margin-right: 2px;
@@ -1552,12 +1546,7 @@ input[type="submit"] {
         margin-left: -5% !important;
         margin-top: 35vh;
     }
-    .call-splash .sv-row:last-child img {
-        width: 2em !important;
-        /*position: absolute;*/
-        top: 50%;
-        left: 14%;
-    }
+
     .call-splash p {
         font-size: 1.3em;
         line-height: 2em;
@@ -1825,9 +1814,6 @@ input[type="submit"] {
         margin-left: 2em;
         margin-right: 2em;
     }
-    .call-splash .sv-row:last-child>.sv-layout {
-        margin-top: 50% !important;
-    }
 }
 
 @media all and (max-width: 540px) {
@@ -1854,15 +1840,6 @@ input[type="submit"] {
     .sv-decoration-chat,
     .sv-decoration-message {
         width: 29%;
-    }
-    .call-splash>div:first-child {
-        position: relative;
-        width: 90% !important;
-        height: 100%;
-        min-width: unset;
-        transform: unset;
-        left: auto;
-        margin: 0 auto;
     }
 }
 
