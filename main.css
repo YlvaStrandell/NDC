@@ -919,6 +919,10 @@ button[name="qondorLink"] {
     display: none;
 }
 
+.call-splash .sv-fluid-grid.sv-grid-958px.sv-layout.sv-skip-spacer.sv-template-layout {
+    padding-right: 1em;
+}
+
 .message-splash {
     opacity: 0.99;
     background: #0099da;
