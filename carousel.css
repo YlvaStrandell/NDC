@@ -1,10 +1,7 @@
-
-
 .sv-bvBildSpel {
     width: 980px;
     background: red;
 }
-
 
 .wrapper {
     width: 100% !important;
@@ -13,7 +10,6 @@
     display:block; 
     justify-content:center; 
     max-width: 100vw !important;
-    /*overflow: hidden;*/
 }
 
 .carousel {
@@ -24,8 +20,6 @@
 
 .car-onboard {
     display: none;
-   /* overflow: hidden;
-    padding-bottom: 10px;*/
 }
 
 .car-onboard .slick-next1,
@@ -62,8 +56,6 @@
     padding-left: 0;
     margin-bottom: 10px;
     height: 40px;
-
-    /*border: solid red 1px;*/
 }
 
 .slick-dots li {
@@ -81,8 +73,6 @@
     font-size: 0;
     line-height: 0;
     display: block;
-    /*width: 2em;
-    height: 2em;*/ 
     padding: 14px 10px;
     padding-right: 25px;
     cursor: pointer;
@@ -161,7 +151,6 @@
     position: absolute;
     left: -6px;
     margin-top: 240px;
-    /* z-index:1000000;*/
 }
 
 .slick-next1 {
@@ -171,7 +160,6 @@
     position: absolute;
     right: -6px;
     margin-top: -265px;
-    /*z-index:1000000;*/
 }
 
 
@@ -181,15 +169,7 @@
     }
     .car-onboard {
         height: 90vh;
-    }
-  
-    /*.slick-list { 
-        height:92vh;  
-     }*/
-    /* 
-    .car-onboard.slick-slider .slick-slide{
-   
-}*/
+    }  
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
@@ -218,17 +198,7 @@
     }
     .car-onboard {
         height: 80vh;
-    }
-   
-    /*.slick-list { 
-        height:82vh;   
-     }*/
-
-     /* 
-    .car-onboard.slick-slider .slick-slide{
-   height: 80vh; 
-}*/
-    
+    }       
 }
 
 
@@ -263,11 +233,6 @@
         height: 80vh;
     }
    
-    /*.slick-list { 
-        height:82vh;  
-       
-     }*/
-    
     .car-onboard.slick-slider .slick-slide {
         height: 80vh;
     }
@@ -306,11 +271,7 @@
     .car-onboard {
         height: 80vh;
     }
-    
-    /*.slick-list { 
-        height:82vh;
-     }*/
-    
+
     .car-onboard.slick-slider .slick-slide {
         height: 80vh;
     }
@@ -339,55 +300,17 @@
 }
 
 @media all and (max-width: 767px) {
-    /*
-   .sv-grid-958px .sv-row [class*="sv-column-"].car-onboard.carousel{
-   height:80vh;
-}
- */
-    /* 
-   .car-onboard{
-   height: 80vh;
-} 
-   */
-
-
 
    .changeBackground .changeBackground.padding-bottom .car-onboard.carousel.slick-slider .slick-list.draggable {
     padding-right: 0 !Important;
     padding-left: 0 !Important;
     }   
 
-    /*#email-sms-permissions-main #permissions .ok-button {
-        background-color: #009ada;
-        color: #fff;
-        padding: 15px 0;
-        font-size: 24px;
-        margin-top: 30px !important;
-        text-align: center;
-        font-family: 'AvenirDemiBold' !important;
-    }
-    #email-sms-permissions-main #permissions .ok-button #okLink {
-        font-size: 1em !important;
-    }*/
-    
     .sv-template-tom-mall-utan-footer-inloggad .changeBackground .changeBackground .car-onboard .draggable .slick-track .sv-bv-bildpuff {
         height: 100% !Important;
         margin-bottom: 1.2em;
     }
-    /*Ylva 211112 start*/
-    /*
- .car-onboard #slick-slide00 {
-    margin-left: 1.8em;
- }
-   
-  .car-onboard #slick-slide01 {
-    margin-left: 1.4em;
- }
-   
- .car-onboard #slick-slide02 {
-    margin-left: 1.0em;
- }
-*/
+    
     .car-onboard .wrapper {
         padding-top: 1.5em;
     }
@@ -437,11 +360,6 @@
     .car-onboard .slick-track {
         display: flex;
     }
-    
-    /* 
-.car-onboard.slick-slider .slick-slide{
-   height: 80vh;
-} */
    
     .car-onboard.slick-slider .slick-slide div[data-cid] {
         height: 100%;
@@ -457,9 +375,6 @@
         margin-bottom: 0;
         padding-bottom: 0;
     }
-    /*.slick-dots  {
-   width:92%;
-}*/
 }
 
 @media all and (min-width: 767px) {
