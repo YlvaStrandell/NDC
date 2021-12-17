@@ -394,13 +394,10 @@
     /*Ylva 211112 end*/
     .wrapper {
         text-align: center;
-        /*margin: 0.5em auto;*/
         width: 100%;
     }
     .sv-grid-958px .sv-row *[class*='sv-column-'].carousel {
         margin: 0;
-        /*width:110%;*/
-       /* width: 90% !important;*/
         width: auto !important;
         flex-grow: 1;
         height: 425px;
@@ -417,14 +414,11 @@
         font-size: 50px;
     }
     .bv-puff__content {
-        padding: 15px 0 0 0 !important;
         display: flex;
         flex-direction: column;
-        /* justify-content: space-between; */
     }
     .slick-list {
         padding: 0 !important;
-        /* height:80vh;    */
     }
     .bv-puff__title,
     .bv-puff__description {
