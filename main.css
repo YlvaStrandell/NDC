@@ -1864,99 +1864,85 @@ input[type="submit"] {
    at the bottom of offer pages */
 
 @media all and (max-width: 950px) {
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+    .sv-template-inspirational-offer .offerPage .booking-form .contactform-container .no_small_button {
         margin-left: -210px;
     }
 }
 
 @media all and (max-width: 900px) {
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+    .sv-template-inspirational-offer .offerPage .booking-form .contactform-container .no_small_button {
         margin-left: -200px;
     }
 }
 
 @media all and (max-width: 850px) {
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+    .sv-template-inspirational-offer .offerPage .booking-form .contactform-container .no_small_button {
         margin-left: -180px;
     }
 }
 
 @media all and (max-width: 800px) {
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+    .sv-template-inspirational-offer .offerPage .booking-form .contactform-container .no_small_button {
         margin-left: -170px;
     }
 }
 
 @media all and (max-width: 750px) {
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+    .sv-template-inspirational-offer .offerPage .booking-form .contactform-container .no_small_button {
         margin-left: -160px;
     }
 }
 
 @media all and (max-width: 700px) {
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+    .sv-template-inspirational-offer .offerPage .booking-form .contactform-container .no_small_button {
         margin-left: -150px;
     }
 }
 
 @media all and (max-width: 650px) {
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+    .sv-template-inspirational-offer .offerPage .booking-form .contactform-container .no_small_button {
         margin-left: -140px;
     }
 }
 
 @media all and (max-width: 600px) {
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+    .sv-template-inspirational-offer .offerPage .booking-form .contactform-container .no_small_button {
         margin-left: -125px;
     }
 }
 
 @media all and (max-width: 550px) {
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+    .sv-template-inspirational-offer .offerPage .booking-form .contactform-container .no_small_button {
         margin-left: -115px;
     }
 }
 
 @media all and (max-width: 500px) {
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+    .sv-template-inspirational-offer .offerPage .booking-form .contactform-container .no_small_button {
         margin-left: -100px;
     }
 }
 
 @media all and (max-width: 450px) {
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+    .sv-template-inspirational-offer .offerPage .booking-form .contactform-container .no_small_button {
         margin-left: -85px;
     }
 }
 
 @media all and (max-width: 400px) {
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+    .sv-template-inspirational-offer .offerPage .booking-form .contactform-container .no_small_button {
         margin-left: -70px;
     }
 }
 
 @media all and (max-width: 350px) {
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+    .sv-template-inspirational-offer .offerPage .booking-form .contactform-container .no_small_button {
         margin-left: -62px;
     }
 }
 
 @media all and (max-width: 300px) {
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tct.contactform-container .no_small_button,
-    .sv-template-inspirational-offer .offerPage .booking-form #contactform-container_tc.contactform-container .no_small_button {
+    .sv-template-inspirational-offer .offerPage .booking-form .contactform-container .no_small_button {
         margin-left: -50px;
     }
 }
