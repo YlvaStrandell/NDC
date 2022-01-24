@@ -1636,7 +1636,7 @@ input[type="submit"] {
     }
     .sv-decoration-log-out-icon {
         margin-left: 0;
-        padding: 0 1em;
+        padding: 0 1em 0 2.2em;
     }
 
     .sv-decoration-log-out-icon p {
