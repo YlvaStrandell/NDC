@@ -1607,8 +1607,7 @@ input[type="submit"] {
         font-size: 1em !important;
     }
     .maincontent {
-        padding-left: 1.1em;
-        padding-right: 1.1em;
+        padding: 0 1.1em;
     }
     .booking-form .sv-formFieldRow div {
         padding: 0 1em;
@@ -1637,6 +1636,7 @@ input[type="submit"] {
     }
     .sv-decoration-log-out-icon {
         margin-left: 0;
+        padding: 0 1em;
     }
     .loginpage #standardLoginSubmit div .bvLoginGroup {
         width: 100%;
