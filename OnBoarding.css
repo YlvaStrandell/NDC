@@ -1,3 +1,22 @@
+/*
+=========================================================
+ONBOARDING.CSS
+=========================================================
+  ____                        _   
+ | __ )  ___  _   ___   _____| |_ 
+ |  _ \ / _ \| | | \ \ / / _ \ __|
+ | |_) | (_) | |_| |\ V /  __/ |_ 
+ |____/ \___/ \__,_| \_/ \___|\__|
+
+ * Innehåller CSS för onboarding-processen men då den också
+ * omfattar några webappar så kan CSS också återfinnas
+ * i webapparna.
+ *
+ * Skapad av: Mats Stafström
+ * Copyright (C) 2022 Bouvet AB
+=========================================================
+*/
+
 #bankIdSeLogin .bankidDiv .bankIdmsg {
     font-family: 'AvenirDemiBold';
 }
@@ -229,7 +248,6 @@
     left: -280px;
     text-align: right;
 }
-
 
 @media all and (max-width: 985px) {
     .home-overlay .over1 {

@@ -1,67 +1,87 @@
+/*
+=========================================================
+TERMS-AND-CONDITIONS.CSS
+=========================================================
+  ____                        _   
+ | __ )  ___  _   ___   _____| |_ 
+ |  _ \ / _ \| | | \ \ / / _ \ __|
+ | |_) | (_) | |_| |\ V /  __/ |_ 
+ |____/ \___/ \__,_| \_/ \___|\__|
+
+ * Innehåller CSS för sidan terms and conditions men då
+ * där också ligger en webapp så finns det CSS också i
+ * webappen.
+ *
+ * Skapad av: Mats Stafström
+ * Copyright (C) 2022 Bouvet AB
+=========================================================
+*/
+
 html.sv-js.sv-template-tom-mall-utan-footer.js.sv-no-touch {
     background: #f5f5f5;
- }
- 
- #h-Lasochgodkannvillkoren {
-     margin-top: -5px;
-     font-size: clamp(1.3em, 4.7vw, 1.7em);
- }
- 
- /* THE BLUE CHECK BOX */
- 
- .control {
+}
+
+#h-Lasochgodkannvillkoren {
+    margin-top: -5px;
+    font-size: clamp(1.3em, 4.7vw, 1.7em);
+}
+
+
+/* THE BLUE CHECK BOX */
+
+.control {
     display: flex;
-    justify-content:center;
-      flex-direction:row-reverse;
-      flex-wrap: wrap;
-      align-content:center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: center;
     margin-bottom: 4px;
-    padding:0 !important; 
+    padding: 0 !important;
     font-size: 1em;
-    cursor: pointer; 
-      
-      -webkit-tap-highlight-color: transparent;
-     }
- 
-  .control div {
-       margin-top:0;
-       font-size:1.18em;
-     display:inline-block;
-     top:-5px;
-     left:-9px !important;
-     }
-    
-   .control_indicator {
-      display: block;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.control div {
+    margin-top: 0;
+    font-size: 1.18em;
+    display: inline-block;
+    top: -5px;
+    left: -9px !important;
+}
+
+.control_indicator {
+    display: block;
     position: relative !important;
-    flex-basis:20px;
-     
-    margin:0 !important;
-    left:auto !important;
+    flex-basis: 20px;
+    margin: 0 !important;
+    left: auto !important;
     height: 19px;
     width: 19px;
     background: #ffffff;
     border: 1px solid #009ada;
     border-radius: 0px;
-     }
- 
- .download-box .sv-text-portlet a {
-    font-size:0.95em;
- }
- 
- .control input {
-    display:none;
+}
+
+.download-box .sv-text-portlet a {
+    font-size: 0.95em;
+}
+
+.control input {
+    display: none;
     position: absolute;
     z-index: -1;
     opacity: 0;
- }
- .control-group {
-    width:100% !important;
- }
- .control_indicator {
+}
+
+.control-group {
+    width: 100% !important;
+}
+
+.control_indicator {
     position: absolute;
-    left:50%;
-    margin-top:-24px;
+    left: 50%;
+    margin-top: -24px;
     /*margin-left:-160px;*/
     left: 0;
     height: 20px;
@@ -69,46 +89,46 @@ html.sv-js.sv-template-tom-mall-utan-footer.js.sv-no-touch {
     background: #ffffff;
     border: 1px solid #009ada;
     border-radius: 0px;
- }
- 
- .checkbox-and-button {
-    display:flex;
-    justify-content:center;
-    flex-direction:column;
- }
- 
- .control:hover input ~ .control_indicator,
- .control input:focus ~ .control_indicator {
+}
+
+.checkbox-and-button {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.control:hover input~.control_indicator,
+.control input:focus~.control_indicator {
     background: #ffffff;
- }
- 
- .control input:checked ~ .control_indicator {
+}
+
+.control input:checked~.control_indicator {
     background: #009ada;
- }
- 
- .control:hover input:not([disabled]):checked ~ .control_indicator,
- .control input:checked:focus ~ .control_indicator {
+}
+
+.control:hover input:not([disabled]):checked~.control_indicator,
+.control input:checked:focus~.control_indicator {
     background: #009ada;
- }
- 
- .control input:disabled ~ .control_indicator {
+}
+
+.control input:disabled~.control_indicator {
     background: #ffffff;
     opacity: 0.6;
     pointer-events: none;
- }
- 
- .control_indicator:after {
+}
+
+.control_indicator:after {
     box-sizing: unset;
     content: '';
     position: absolute;
     /* display: none; */
- }
- 
- .control input:checked ~ .control_indicator:after {
+}
+
+.control input:checked~.control_indicator:after {
     display: block;
- }
- 
- .control-checkbox .control_indicator:after {
+}
+
+.control-checkbox .control_indicator:after {
     left: 6px;
     top: 0px;
     width: 6px;
@@ -116,127 +136,127 @@ html.sv-js.sv-template-tom-mall-utan-footer.js.sv-no-touch {
     border: solid #ffffff;
     border-width: 0 3px 3px 0;
     transform: rotate(45deg);
- }
- 
- .control-checkbox input:disabled ~ .control_indicator:after {
+}
+
+.control-checkbox input:disabled~.control_indicator:after {
     border-color: #ffffff;
- }
- 
- #lnkNext {
-    font-size:1.2em;
-    color:#fff;
-    text-decoration:none;
+}
+
+#lnkNext {
+    font-size: 1.2em;
+    color: #fff;
+    text-decoration: none;
     white-space: nowrap;
- }
- .arrow-font #lnkNext {
+}
+
+.arrow-font #lnkNext {
     font-family: 'LloydsBankJackMediumWeb' !important;
- }
- 
- .sv-svid180_3a7e2574173ece0c02150c-portlet.sv-custom-module.svid360_3a7e2574173ece0c021533.sv-skip-spacer,
- .sv-svid180_1f325411746d0218e41-portlet.sv-custom-module.svid360_1f325411746d0218e42.sv-skip-spacer {
+}
+
+.sv-svid180_3a7e2574173ece0c02150c-portlet.sv-custom-module.svid360_3a7e2574173ece0c021533.sv-skip-spacer,
+.sv-svid180_1f325411746d0218e41-portlet.sv-custom-module.svid360_1f325411746d0218e42.sv-skip-spacer {
     margin: auto;
- }
- 
- .div_save_terms_and_conditions .control-checkbox {
-    display:flex;
-    justify-content:center;
-    flex-direction:row-reverse;
+}
+
+.div_save_terms_and_conditions .control-checkbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
     margin-bottom: 10px;
-    margin-left:-23px;
- }
- 
- .div_save_terms_and_conditions .sv-layout.sv-skip-spacer.sv-column-10.sv-text-align-center.c6.c320 {
+    margin-left: -23px;
+}
+
+.div_save_terms_and_conditions .sv-layout.sv-skip-spacer.sv-column-10.sv-text-align-center.c6.c320 {
     margin-left: 0;
- }
- 
- .div_save_terms_and_conditions .btn-center {
+}
+
+.div_save_terms_and_conditions .btn-center {
     margin-bottom: 2em;
- }
- 
- .div_save_terms_and_conditions .sv-layout.display-flex.sv-skip-spacer.sv-column-10 {
-     margin-top: -1em;
- }
- 
- .sv-text-portlet.sv-use-margins.sv-skip-spacer.sv-decoration-download .sv-text-portlet-content a {
+}
+
+.div_save_terms_and_conditions .sv-layout.display-flex.sv-skip-spacer.sv-column-10 {
+    margin-top: -1em;
+}
+
+.sv-text-portlet.sv-use-margins.sv-skip-spacer.sv-decoration-download .sv-text-portlet-content a {
     margin-right: 2em;
- }
- 
- /* MOBILE */
- @media all and (max-width: 767px) {
-   .control {
-      display: flex;
-      justify-content:center;
-      flex-direction:row-reverse;
-      flex-wrap: wrap;
-      align-content:center;
-      margin-bottom: 4px;
-      padding:0 !important; 
-      -webkit-tap-highlight-color: transparent;
-     }
-    
-    .control div {
-       font-size:0.94em !important; 
-      
-     }
-    .center-me label {
-       font-size:14px !important;
+}
+
+
+/* MOBILE */
+
+@media all and (max-width: 767px) {
+    .control {
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        align-content: center;
+        margin-bottom: 4px;
+        padding: 0 !important;
+        -webkit-tap-highlight-color: transparent;
     }
-   .control_indicator {
-       position: relative !important;
-       flex-basis:18px;
-       margin:0 !important;
-       left:auto !important;
-       background: #ffffff;
-       border: 1px solid #009ada;
-       border-radius: 0px;
-     }
-    
+    .control div {
+        font-size: 0.94em !important;
+    }
+    .center-me label {
+        font-size: 14px !important;
+    }
+    .control_indicator {
+        position: relative !important;
+        flex-basis: 18px;
+        margin: 0 !important;
+        left: auto !important;
+        background: #ffffff;
+        border: 1px solid #009ada;
+        border-radius: 0px;
+    }
     .download-box {
-       display: flex !Important;
-       position: relative !Important;
-    }   
+        display: flex !Important;
+        position: relative !Important;
+    }
     #lnkNext {
-       font-size: 1em;
-           padding-left:70px;
-       padding-right:70px;
-     }
-    
+        font-size: 1em;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
     #btnNext {
-       height: 0.5em;
-       padding:0.5em 0.9em 0.9em 0.9em !important;
-       font-size:1.2em;
+        height: 0.5em;
+        padding: 0.5em 0.9em 0.9em 0.9em !important;
+        font-size: 1.2em;
     }
     .div_save_terms_and_conditions .display-flex {
-       margin-bottom:0;
+        margin-bottom: 0;
     }
     .checkbox-and-button .remove-left-margin {
-       margin-bottom:0 !important;
+        margin-bottom: 0 !important;
     }
-    
-    .download-box .sv-grid-958px [class*="sv-column-"] {      
-       margin-bottom: 0 !important;
+    .download-box .sv-grid-958px [class*="sv-column-"] {
+        margin-bottom: 0 !important;
     }
-    
- }
- @media all and (max-width: 500px) {
+}
+
+@media all and (max-width: 500px) {
     .btn-center.btn-big {
-       max-width: unset;
+        max-width: unset;
     }
- }
- @media all and (max-width: 385px) {
+}
+
+@media all and (max-width: 385px) {
     .control {
-       justify-content: center;
-       flex-direction: row;
+        justify-content: center;
+        flex-direction: row;
     }
-    .control > div:first-of-type {
-       order: 2;
-     /* float: left; */
-     display: inline-flex;
-     /* white-space: pre-line; */
-     text-align: left;
+    .control>div:first-of-type {
+        order: 2;
+        /* float: left; */
+        display: inline-flex;
+        /* white-space: pre-line; */
+        text-align: left;
     }
- }
- @media all and (max-width: 350px) {
+}
+
+@media all and (max-width: 350px) {
     /*.control {
       flex-direction:column;
       -webkit-tap-highlight-color: transparent;
@@ -251,9 +271,9 @@ html.sv-js.sv-template-tom-mall-utan-footer.js.sv-no-touch {
        margin-top:8px !important;
      }*/
     #btnNext {
-       width:83% !important;
+        width: 83% !important;
     }
     .download-box .sv-font-dark-demibold-16pt {
-       font-size:1.2em;
+        font-size: 1.2em;
     }
- }
+}

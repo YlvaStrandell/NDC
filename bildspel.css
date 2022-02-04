@@ -1,17 +1,38 @@
+/*
+=========================================================
+BILDSPEL.CSS
+=========================================================
+  ____                        _   
+ | __ )  ___  _   ___   _____| |_ 
+ |  _ \ / _ \| | | \ \ / / _ \ __|
+ | |_) | (_) | |_| |\ V /  __/ |_ 
+ |____/ \___/ \__,_| \_/ \___|\__|
+
+ * Innehåller CSS för bildspelet men det kan också finnas
+ * i filen carousel.css och i webapparna.
+ *
+ * Skapad av: Christer Hagman
+ * Copyright (C) 2022 Bouvet AB
+=========================================================
+*/
+
 .demo {
-    width:100%;
+    width: 100%;
 }
+
 .demo ul {
     list-style: none outside none;
     padding-left: 0;
-    margin-bottom:0;
+    margin-bottom: 0;
 }
+
 .demo li {
     display: block;
     float: left;
     margin-right: 6px;
-    cursor:pointer;
+    cursor: pointer;
 }
+
 .demo img {
     display: block;
     height: auto;

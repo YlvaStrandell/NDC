@@ -1,13 +1,18 @@
-
-
 /*
-.page-head {
-   border: 1px solid red;
-}
+=========================================================
+MAIN.CSS
+=========================================================
+  ____                        _   
+ | __ )  ___  _   ___   _____| |_ 
+ |  _ \ / _ \| | | \ \ / / _ \ __|
+ | |_) | (_) | |_| |\ V /  __/ |_ 
+ |____/ \___/ \__,_| \_/ \___|\__|
 
-.page-head + div {
-   border: 1px solid blue;
-}
+ * Innehåller grundläggande CSS för webbplatsen. 
+ *
+ * Skapad av: Mats Stafström
+ * Copyright (C) 2022 Bouvet AB
+=========================================================
 */
 
 .sv-template-tom-mall .page-head .main-nav .logo-concierge {
@@ -41,7 +46,7 @@
 
 .sv-template-home2 .hide-me.message-splash .sv-fluid-grid.sv-grid-958px {
     width: auto;
- }
+}
 
 .sv-decoration-hollow-button p {
     margin: 19px 0;
@@ -371,6 +376,7 @@ p.accordion-content {
 
 
 /* BANK ID SLUT */
+
 
 /*.sv-font-dark-medium-14pt,
 .sv-font-white-medium-11pt,
@@ -936,7 +942,6 @@ button[name="qondorLink"] {
     padding-top: 20px;
 }
 
-
 .message-splash img {
     width: 1.2em !important;
     height: 1.2em !important;
@@ -1077,7 +1082,6 @@ button[name="qondorLink"] {
     margin-left: 2px;
 }
 
-
 .personal-info form div#submit {
     display: flex;
     align-items: center;
@@ -1114,7 +1118,6 @@ button[name="qondorLink"] {
     max-width: 958px;
 }
 
-
 .small-view {
     width: 80% !important;
     margin: 0 auto;
@@ -1129,7 +1132,6 @@ button[name="qondorLink"] {
 .icon-person {
     padding: 0.5em 5em;
 }
-
 
 .sv-decoration-log-out-icon {
     margin-left: 20px;
@@ -1187,7 +1189,6 @@ button[name="qondorLink"] {
     transform: translateX(-100%);
 }
 
-
 .lSSlideOuter .lSPager.lSpg {
     position: absolute;
     left: 50%;
@@ -1227,7 +1228,6 @@ button[name="qondorLink"] {
     border-right: 1px solid #eee;
     content: "";
 }
-
 
 .contactbox #Close+img {
     margin-bottom: 140px;
@@ -1317,7 +1317,6 @@ button[name="qondorLink"] {
     margin-bottom: 5px;
 }
 
-
 .sv-text-portlet-content p.sv-font-dark-demibold-16pt {
     font-family: "AvenirDemiBold" !important;
     margin-bottom: 12px;
@@ -1326,7 +1325,6 @@ button[name="qondorLink"] {
 .sv-font-white-demibold-14pt {
     white-space: normal;
 }
-
 
 .logo-concierge {
     text-align: center;
@@ -1348,8 +1346,6 @@ button[name="qondorLink"] {
     margin-top: -0.4em;
 }
 
-
-
 #email-sms-permissions-main #permissions .ok-button {
     background-color: #009ada;
     color: #fff;
@@ -1366,6 +1362,7 @@ button[name="qondorLink"] {
 #email-sms-permissions-main #permissions .ok-button #okLink {
     font-size: 24px !important;
 }
+
 
 /**  button test 2021-04-30 **/
 
@@ -1419,7 +1416,6 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 767px) {
-
     .sv-template-tom-mall-utan-footer .page-head .logo-concierge .sv-image-portlet img {
         margin-left: -5px;
     }
@@ -1439,7 +1435,6 @@ input[type="submit"] {
     .sv-decoration-message .sv-text-portlet-content {
         margin-top: 0;
     }
-    
     .txa-t-and-c {
         height: 10em;
     }
@@ -1513,11 +1508,9 @@ input[type="submit"] {
         margin-left: 0;
         margin-right: 0;
     }
-
-    .call-splash .sv-fluid-grid.sv-grid-958px.sv-layout.sv-skip-spacer.sv-template-layout {    
+    .call-splash .sv-fluid-grid.sv-grid-958px.sv-layout.sv-skip-spacer.sv-template-layout {
         margin-top: 1.6em !important;
     }
-
     .main-nav {
         display: flex;
         justify-content: flex-start;
@@ -1538,7 +1531,6 @@ input[type="submit"] {
         bottom: 58px;
         padding-top: 2em;
     }
-
     .call-splash p {
         font-size: 1.3em;
         line-height: 2em;
@@ -1638,11 +1630,9 @@ input[type="submit"] {
         margin-left: 0;
         padding: 0 1em 0 2.2em;
     }
-
     .sv-decoration-log-out-icon p {
         margin: 0;
     }
-    
     .loginpage #standardLoginSubmit div .bvLoginGroup {
         width: 100%;
         margin-right: 0;
