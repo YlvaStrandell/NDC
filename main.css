@@ -1514,7 +1514,7 @@ input[type="submit"] {
     .main-nav {
         display: flex;
         justify-content: flex-start;
-        align-items: center;
+        /* align-items: center; */
     }
     .main-nav div {
         padding: 0;
@@ -1523,6 +1523,9 @@ input[type="submit"] {
     .main-nav div.logo-concierge {
         text-align: center;
         flex-grow: 1;
+    }
+    .image-portlet a img.sv-noborder {
+        padding-top: 0.9em;
     }
     .contactbox img {
         width: 80% !important;
