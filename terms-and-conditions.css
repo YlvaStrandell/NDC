@@ -67,6 +67,10 @@ html.sv-js.sv-template-tom-mall-utan-footer.js.sv-no-touch {
     font-size: 0.95em;
 }
 
+.download-box .sv-linkicon {
+    display: none;
+}
+
 .control input {
     display: none;
     position: absolute;
