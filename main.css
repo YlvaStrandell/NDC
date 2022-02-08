@@ -1613,6 +1613,9 @@ input[type="submit"] {
         margin: 0;
         padding-left: 0;
     }
+    .sv-template-portlet div.sv-text-portlet-content {
+        padding: 0 1em;
+    }
     .lSSlideOuter .lSPager.lSGallery img {
         min-width: 100px;
     }
