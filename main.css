@@ -925,7 +925,7 @@ button[name="qondorLink"] {
 }
 
 .call-splash .sv-fluid-grid.sv-grid-958px.sv-layout.sv-skip-spacer.sv-template-layout {
-    padding-right: 1em;
+    padding: 0 1em;
 }
 
 .message-splash {
@@ -1612,9 +1612,6 @@ input[type="submit"] {
     .booking-form #Vansterspalt+div {
         margin: 0;
         padding-left: 0;
-    }
-    .sv-template-portlet div.sv-text-portlet-content {
-        padding: 0 1em;
     }
     .lSSlideOuter .lSPager.lSGallery img {
         min-width: 100px;
