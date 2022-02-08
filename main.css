@@ -613,7 +613,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .booking-form {
-    padding: 3em 2em 0 2em;
+    padding: 0 1em;
 }
 
 .booking-form input[type="submit"] {
@@ -656,7 +656,6 @@ color:#fff;
     font-weight: normal;
     font-size: 1em;
     overflow: hidden;
-    margin-top: 2em;
 }
 
 .booking-form textarea {
@@ -1586,6 +1585,9 @@ input[type="submit"] {
     }
     .booking-form {
         margin-bottom: 0 !important;
+    }
+    .offerPage .booking-form .sv-font-dark-demibold-12pt {
+        margin: 0 0 0.8em 0;
     }
     .contactform-container select {
         width: 100%;
