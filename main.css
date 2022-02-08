@@ -1610,7 +1610,7 @@ input[type="submit"] {
         padding: 0 1em;
     }
     .booking-form #Vansterspalt+div {
-        margin: 0 1em;
+        margin: 0;
         padding-left: 0;
     }
     .lSSlideOuter .lSPager.lSGallery img {
