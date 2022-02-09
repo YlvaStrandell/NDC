@@ -261,6 +261,10 @@ p.accordion-content {
     align-self: flex-start !important;
 }
 
+.offerPage .sv-text-portlet-content p.sv-font-black-bold-24pt {
+    margin-top: 0;
+}
+
 @media all and (max-width: 656px) {
     #bankIdSeLogin #bankIdSeLogin_submitMobileBankid,
     #bankIdSeLogin .bankIDCancel {
