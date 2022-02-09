@@ -44,6 +44,10 @@ MAIN.CSS
     padding: 1em;
 }
 
+.hide-me.message-splash .sv-text-portlet .sv-text-align-center {
+    text-align: left !important;
+}
+
 .sv-template-home2 .hide-me.message-splash .sv-fluid-grid.sv-grid-958px {
     width: auto;
 }
