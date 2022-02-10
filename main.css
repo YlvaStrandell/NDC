@@ -15,7 +15,7 @@ MAIN.CSS
 =========================================================
 */
 
-.sv-text-portlet .sv-text-portlet-content p {
+.sv-layout.sv-skip-spacer.sv-column-10.sv-template-layout .sv-text-portlet .sv-text-portlet-content p {
     margin-top: -20px;
 }
 
