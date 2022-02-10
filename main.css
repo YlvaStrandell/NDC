@@ -15,6 +15,10 @@ MAIN.CSS
 =========================================================
 */
 
+.sv-text-portlet .sv-text-portlet-content p {
+    margin-top: -20px;
+}
+
 .sv-template-tom-mall .page-head .main-nav .logo-concierge {
     position: inherit;
 }
