@@ -309,6 +309,11 @@ p.accordion-content {
     margin-top: 0;
 }
 
+.offerPage .booking-form .sv-customcontactform-portlet #customContactFormSubmit td {
+    padding: 0;
+    background-color: green;
+}
+
 @media all and (max-width: 656px) {
     #bankIdSeLogin #bankIdSeLogin_submitMobileBankid,
     #bankIdSeLogin .bankIDCancel {
