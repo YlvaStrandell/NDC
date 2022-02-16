@@ -15,6 +15,14 @@ MAIN.CSS
 =========================================================
 */
 
+.sv-Save-Email-and-Phone #email-and-phone-main #email-and-phone .remove-left-margin {
+    margin-left: 0;
+}
+
+.sv-template-startpage .startpage .btn-blue.btn-center.btn-big p.sv-font-white-demibold-14pt {
+    margin-top: 0;
+}
+
 #customContactFormSubmit_model_category {
     margin-bottom: 40px;
 }
