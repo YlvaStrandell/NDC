@@ -323,6 +323,11 @@ p.accordion-content {
     display: flex;
 }
 
+.offerPage .booking-form .sv-customcontactform-portlet #customContactFormSubmit td #customContactFormSubmit_contactForm_button_send {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media all and (max-width: 656px) {
     #bankIdSeLogin #bankIdSeLogin_submitMobileBankid,
     #bankIdSeLogin .bankIDCancel {
