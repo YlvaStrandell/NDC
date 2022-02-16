@@ -659,7 +659,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .booking-form {
-    padding: 0 1em;
+    padding: 3em;
 }
 
 .booking-form input[type="submit"] {
