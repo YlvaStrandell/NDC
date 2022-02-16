@@ -23,6 +23,7 @@ MAIN.CSS
 .sv-Save-Email-and-Phone #email-and-phone-main #email-and-phone .remove-left-margin #btnNext {
     margin-left: auto;
     margin-right: auto;
+    padding: 0.5em 0.9em 0.5em 0.9em !important;
 }
 
 .sv-template-startpage .startpage .btn-blue.btn-center.btn-big p.sv-font-white-demibold-14pt {
