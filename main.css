@@ -311,7 +311,6 @@ p.accordion-content {
 
 .offerPage .booking-form .sv-customcontactform-portlet #customContactFormSubmit td {
     padding: 0;
-    background-color: green;
 }
 
 @media all and (max-width: 656px) {
@@ -1641,6 +1640,9 @@ input[type="submit"] {
     .booking-form {
         margin-bottom: 0 !important;
     }
+    .offerPage .booking-form {
+        padding: 0 1.5em;
+    }
     .offerPage .booking-form .sv-font-dark-demibold-12pt {
         margin: 0 0 0.8em 0;
     }
@@ -1701,8 +1703,9 @@ input[type="submit"] {
         font-size: 0.7em;
     }
     .portletCustomMainFont #contactFormTable {
-        margin-left: 1em;
-        width: 93%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
         padding: 0;
     }
     .message-splash .portletCustomMainFont #contactFormTable {
@@ -1751,9 +1754,6 @@ input[type="submit"] {
     .message-splash .portletCustomMainFont textarea {
         padding: 2% 2% !important;
         width: 92%;
-    }
-    .portletCustomMainFont #contactFormTable {
-        margin-left: auto;
     }
     .portletCustomMainFont #contactFormTable td {
         padding-left: 3%;
