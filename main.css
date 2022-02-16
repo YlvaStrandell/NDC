@@ -309,7 +309,7 @@ p.accordion-content {
     margin-top: 0;
 }
 
-.offerPage .booking-form .sv-customcontactform-portlet #customContactFormSubmit tr {
+.offerPage .booking-form .sv-customcontactform-portlet #customContactFormSubmit tr:last-child {
     display: flex;
     background-color: #009ada;
     margin-left: -200px;
