@@ -17,6 +17,7 @@ MAIN.CSS
 
 .sv-Save-Email-and-Phone #email-and-phone-main #email-and-phone .remove-left-margin {
     margin-left: 0;
+    display: flex;
 }
 
 .sv-template-startpage .startpage .btn-blue.btn-center.btn-big p.sv-font-white-demibold-14pt {
@@ -1447,6 +1448,9 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 767px) {
+    .sv-Save-Email-and-Phone #email-and-phone-main #email-and-phone .remove-left-margin #btnNext {
+        width: 100%;
+    }
     .sv-template-tom-mall-utan-footer .page-head .logo-concierge .sv-image-portlet img {
         margin-left: -5px;
     }
