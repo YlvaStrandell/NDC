@@ -20,6 +20,11 @@ MAIN.CSS
     display: flex;
 }
 
+.sv-Save-Email-and-Phone #email-and-phone-main #email-and-phone .remove-left-margin #btnNext {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .sv-template-startpage .startpage .btn-blue.btn-center.btn-big p.sv-font-white-demibold-14pt {
     margin-top: 0;
 }
