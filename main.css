@@ -496,7 +496,6 @@ body a:hover {
 .btn-big a {
     font-family: "AvenirDemiBold" !important;
     display: block;
-    padding: 16px 112px;
 }
 
 .btn-grey {
@@ -1775,7 +1774,6 @@ input[type="submit"] {
     }
     .btn-big a {
         white-space: nowrap;
-        padding: 16px 55px;
     }
     .footer-nav div:nth-of-type(4) {
         margin-left: 85%;
@@ -1895,7 +1893,6 @@ input[type="submit"] {
 @media all and (max-width: 350px) {
     .btn-big a {
         white-space: nowrap;
-        padding: 16px 30px;
     }
     .sv-decoration-app-logos div:nth-child(2) {
         flex-direction: column;
