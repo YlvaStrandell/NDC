@@ -309,8 +309,18 @@ p.accordion-content {
     margin-top: 0;
 }
 
+.offerPage .booking-form .sv-customcontactform-portlet #customContactFormSubmit tr {
+    display: flex;
+    background-color: #009ada;
+    margin-left: -200px;
+    margin-right: -200px;
+}
+
 .offerPage .booking-form .sv-customcontactform-portlet #customContactFormSubmit td {
     padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
 }
 
 @media all and (max-width: 656px) {
