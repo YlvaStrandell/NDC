@@ -1592,9 +1592,9 @@ input[type="submit"] {
         text-align: center;
         flex-grow: 1;
     }
-    .sv-image-portlet a img.sv-noborder {
+    /* .sv-image-portlet a img.sv-noborder {
         padding-top: 0.9em;
-    }
+    } */
     .contactbox img {
         width: 80% !important;
     }
