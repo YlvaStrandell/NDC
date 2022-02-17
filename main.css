@@ -15,6 +15,10 @@ MAIN.CSS
 =========================================================
 */
 
+.homepage .home-overlay .sv-text-portlet-content p.sv-text-align-right {
+    margin-top: -20px;
+}
+
 #welcome-page-blue-button .go-to-offers {
     margin: 0;
 }
