@@ -1484,6 +1484,9 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 767px) {
+    .page-head .main-nav .sv-image-portlet img.sv-noborder {
+        margin-top: 15px;
+    }
     .sv-Save-Email-and-Phone #email-and-phone-main #email-and-phone .remove-left-margin #btnNext {
         width: 100%;
         padding: 0.5em 0.9em 0.5em 0.9em !important;
