@@ -1595,6 +1595,9 @@ input[type="submit"] {
         padding: 0;
         display: inline-block;
     }
+    .page-head .main-nav .logo-concierge div {
+        display: contents;
+    }
     .main-nav div.logo-concierge {
         text-align: center;
         flex-grow: 1;
