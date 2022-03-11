@@ -507,6 +507,11 @@ body a:hover {
     width: 270px !important;
 }
 
+.logo-concierge .sv-image-portlet a img {
+    max-width: unset;
+    max-height: unset;
+}
+
 .display-flex {
     display: flex;
 }
